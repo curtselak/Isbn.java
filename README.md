@@ -3,13 +3,13 @@ Isbn.java facilitates the use of existing International Standard Book Numbers, a
 
 The binary (Isbn.jar) is compiled for Java 8.
 
-Please consult the Wiki for an introduction to Isbn.java.
+Please consult the Wiki for an introduction to Isbn.java
 
 This README file describes the contents of Isbn.java.zip.
 
 The package hierarchy is io.sourceforge.curtthomas.isbn.
 
-The doc folder contains the package's javadoc.
+The doc folder contains the package's API javadoc.
 
 The xslt folder contains instructions for 
 generating and compiling Isbn.java, and the 
