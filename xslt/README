@@ -1,0 +1,80 @@
+In order to ensure that both Isbn.java and its accompanying 
+javadoc are current, it is occasionally necessary to navigate 
+to https://www.isbn-international.org/range_file_generation, 
+obtain RangeMessage.xml, and subsequently generate 
+Isbn.java from it as described below.
+
+Only the first step, manually editing RangeMessage.xml, 
+really requires any effort at all: the rest are tiny. 
+It is imperative to check the text content of the 
+respective Agency elements one way or another for 
+characters that are not permitted in Java language 
+identifiers. The groups.xsl stylesheet (line 24) 
+eventually will suss out the full stop, the comma, 
+and the space character and will either remove or replace 
+each, but the others must be detected beforehand and 
+removed or replaced in order for Isbn.java to ultimately 
+compile.
+
+To begin editing RangeMessage.xml, one can start with a 
+rudimentary XSL transformation (although grep or pcregrep 
+could work too):
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="text"/>
+<xsl:template match="/">
+<xsl:for-each select="ISBNRangeMessage/RegistrationGroups/Group">
+<xsl:value-of select="Agency"/>
+<xsl:text>
+</xsl:text>
+</xsl:for-each>
+</xsl:template>
+</xsl:stylesheet>
+
+In the terminal, one can pipe the result to grep using the 
+-P option and the regular expression [^A-Za-z0-9 ] followed 
+by the hyphen (for stdin, where the name of a file would 
+otherwise appear). All I found besides the characters mentioned 
+earlier (the full stop, comma, and space character) was the 
+single quotation mark, and also what apparently was a nonprinting
+character postpended to the string "Croatia". I removed them 
+using a text editor. The lower-case letter c with a cedilla also 
+was present, but that compiles and was left alone.
+
+Once that RangeMessage.xml has been correctly edited, all that 
+is left to do is run two XSL transformations that cumulatively 
+produce an enhanced RangeMessage.xml, run one more XSL 
+transformation in order to produce the Isbn.java source file, 
+and compile Isbn.java (which will require no editing or other 
+modifications).
+
+The groups.xsl stylesheet needs to be run against the edited 
+RangeMessage.xsl file. It doesn't matter what filename is 
+assigned to either the intermediate result or to the result 
+thereafter: Isbn.xsl (below) only reads the file in once and 
+doesn't require a handle to it.
+
+Then, the ranges.xsl stylesheet needs to be run against the 
+result of running the groups.xsl stylesheet.
+
+	- groups.xsl replaces the content of each Agency element
+	  with a legal Java programming language identifier,
+	  preserves the original content by assigning it to a 
+	  new attribute node, and needs must be run first
+	  
+	- ranges.xsl adds a child element node to the Rules 
+	  element, sets a legal Java programming language 
+	  identifier representing the range as its content, 
+	  and must be run only after groups.xsl has run
+	  
+Finally, running Isbn.xsl against the result of running 
+ranges.xsl produces Isbn.java. Running the XSL transformation 
+from the 'io' folder's parent directory is wisest: the result 
+can be redirected to io/sourceforge/curtthomas/isbn/Isbn.java. 
+Unless Isbn.java is stored consistently with its package 
+declaration, it will not compile. This distribution's 
+io/sourceforge/curtthomas/isbn directory also contains 
+JsonIsbn.java, CannotInferPrefixException.java, and 
+PoorISBNDataException.java, the last two of which are needed 
+in order to compile Isbn.java.
