@@ -6,15 +6,19 @@ in Java source code.
 
 The binary (Isbn.jar) is compiled for Java 8.
 
-Please consult the Wiki right away for an introduction to Isbn.java.
+Please visit the [Wiki](https://github.com/curtselak/Isbn.java/wiki) right away for an introduction to Isbn.java.
+
+The API javadoc's URL is https://curtselak.github.io/Isbn.java/io/sourceforge/curtthomas/isbn/package-summary.html.
 
 The src folder contains the package's source code.
-
-The doc folder contains the package's API javadoc.
 
 The xslt folder contains instructions for 
 generating and compiling Isbn.java, and the 
 .xsl files that are required in order to do.
+
+The testing folder contains instructions, test data, 
+scripts, and Java classes that can be used to test 
+Isbn.java once that it has been compiled.
 
 The io.sourceforge.curtthomas.isbn package is 
 issued under the Apache License version 2.0.
