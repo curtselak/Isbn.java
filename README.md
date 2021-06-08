@@ -12,7 +12,7 @@ The API javadoc's URL is https://curtselak.github.io/Isbn.java/io/sourceforge/cu
 
 The [src](https://github.com/curtselak/Isbn.java/tree/main/src/io/sourceforge/curtthomas/isbn) folder contains the package's source code.
 
-The xslt folder contains instructions for 
+The [xslt](https://github.com/curtselak/Isbn.java/tree/main/testing) folder contains instructions for 
 generating and compiling Isbn.java, and the 
 .xsl files that are required in order to do.
 
