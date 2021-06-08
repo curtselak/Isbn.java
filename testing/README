@@ -1,0 +1,75 @@
+In order to perform the tests, all of the files and folders 
+in this directory except for those bearing the .sh extension
+need to be copied to the folder (isbn) at the bottom of the 
+package (io.sourceforge.curtthomas.isbn) hierarchy. The 
+scripts need to be in the package's parent directory (the 
+directory containing the io folder) and require a Linux 
+terminal in order to be run.
+
+The tests run consequent on pressing a button, but they are 
+not quick, and you may wish to use the less command in a 
+separate terminal to view the logs and the other generated 
+files whilst the tests are running.
+
+The tests01.sh script needs to be run before the tests02.sh 
+script can run. The tests02.sh script runs node.js, so it 
+needs to be available on your system, and the node.js 
+module node-line-reader needs to be available too.
+
+The test data is from the British Library Integrated 
+Catalogue (https://www.bl.uk/collection-metadata/downloads).
+
+The data in the isbn10all and isbn13all folders that 
+looked poor was migrated to the respective files' tails as 
+I was going along. Data that caused an exception to be 
+thrown was migrated to each file's very tail.
+
+The tests01.sh script logs errors that occurred consequent 
+on the method call and writes a file consisting of JSON 
+strings to the temp01 directory. The log file produced is 
+named errorslog. There is nothing wrong if only the path to 
+the file was written to the log.
+
+The default behavior of the tests01.sh script is to run 
+against the data (isbn10ok, isbn13ok) with a view to 
+producing no errors whatever. The line of the script that 
+undertakes that can be commented out, and a corresponding 
+line uncommented, in order to run the test against the 
+data in the isbn10all and isbn13all directories instead. It 
+is wise, prior to taking that step, to run tests02.sh and 
+complete the cycle, because tests02.sh appends data to 
+existing files and can cause confusion and unexpected 
+results if the temp01 directory is not purged of files 
+with names starting with "testing" before running it a 
+second time or greater; notwithstanding which, there is 
+not any reason to run tests02.sh once that it has already 
+run after tests01.sh has against the default set of data, 
+as its functioning is premised on tests01.sh having run 
+without any errors.
+
+The tests02.sh script runs node.js in order to parse the 
+JSON that tests01.sh wrote to the temp01 directory. Node.js 
+writes the result to the temp01 directory. The diff 
+command is subsequently invoked in order to compare the 
+file originally converted to JSON by tests01.sh and the file 
+node.js produced. The logfile appended to by the diff 
+command is named difflog: it will be written to at least 
+some of the time, because the Isbn.isbnThirteen() method 
+will have removed characters that were postpended to valid 
+10-digit ISBNS by the Library in its original bibliographic 
+records and recalculated the check digit. (The Isbn type 
+only ever operates internally on ISBNs in 13-digit format).
+
+As was noted earlier, consecutive runs of tests02.sh can 
+produce unexpected results or occasion confusion because 
+it appends to the data in the temp01 directory rather than 
+clobbering any. Files in the temp01 directory produced  
+during the preceding run need be removed before tests02.sh 
+is run again (the files ending in "json" were produced by
+tests01.sh and can be left alone).
+
+Finally,the tests02.sh script checks the validity of the 
+13-digit ISBNS that were output if the data being tested 
+resided in the isbn10ok folder rather than the isbn13ok 
+one. Errors are written to a file named validlog.
+
