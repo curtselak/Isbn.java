@@ -4,7 +4,7 @@ and their parts (as defined by [RangeMessage.xml](https://www.isbn-international
 available at https://www.isbn-international.org/range_file_generation), 
 in Java source code.
 
-The binary (Isbn.jar) is compiled for Java 8.
+The binary ([Isbn.jar](https://github.com/curtselak/Isbn.java/blob/main/Isbn.jar)) is compiled for Java 8.
 
 Please visit the [Wiki](https://github.com/curtselak/Isbn.java/wiki) right away for an introduction to Isbn.java.
 
