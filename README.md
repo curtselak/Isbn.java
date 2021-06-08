@@ -10,17 +10,17 @@ Please visit the [Wiki](https://github.com/curtselak/Isbn.java/wiki) right away 
 
 The API javadoc's URL is https://curtselak.github.io/Isbn.java/io/sourceforge/curtthomas/isbn/package-summary.html.
 
-The [src](https://github.com/curtselak/Isbn.java/tree/main/src/io/sourceforge/curtthomas/isbn) folder contains the package's source code.
+The [src](https://github.com/curtselak/Isbn.java/tree/main/src/io/sourceforge/curtthomas/isbn) folder contains the [package](https://curtselak.github.io/Isbn.java/io/sourceforge/curtthomas/isbn/package-summary.html)'s source code.
 
-The [xslt](https://github.com/curtselak/Isbn.java/tree/main/testing) folder contains instructions for 
+The [xslt](https://github.com/curtselak/Isbn.java/tree/main/xslt) folder contains instructions for 
 generating and compiling Isbn.java, and the 
 .xsl files that are required in order to do.
 
-The testing folder contains instructions, test data, 
+The [testing](https://github.com/curtselak/Isbn.java/tree/main/testing) folder contains instructions, test data, 
 scripts, and Java classes that can be used to test 
 Isbn.java once that it has been compiled.
 
-The io.sourceforge.curtthomas.isbn package is 
+The [io.sourceforge.curtthomas.isbn package](https://curtselak.github.io/Isbn.java/io/sourceforge/curtthomas/isbn/package-summary.html) is 
 issued under the Apache License version 2.0.
 
 © 2021 Curt T. Selak
