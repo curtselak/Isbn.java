@@ -50,7 +50,7 @@ and compile Isbn.java (which will require no editing or other
 modifications).
 
 The groups.xsl stylesheet needs to be run against the edited 
-RangeMessage.xsl file. It doesn't matter what filename is 
+RangeMessage.xml file. It doesn't matter what filename is 
 assigned to either the intermediate result or to the result 
 thereafter: Isbn.xsl (below) only reads the file in once and 
 doesn't require a handle to it.
