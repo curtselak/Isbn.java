@@ -1,0 +1,10 @@
+The copy of RangeMessage.xml in this folder is one that I've made for 
+generating the Isbn.java source file. All that is necessary is to run 
+Isbn.xsl, which is in the xslt directory, against it. I've taken care 
+of the rest (i.e., checked for names that can't serve as legal Java 
+language identifiers, and run the other .xsl files in the xslt folder).
+
+The release may be based on a copy of RangeMessage.xml that is older than 
+the one in this folder. Releases are pro forma: I make them just to test 
+them regularly and to thereby make certain that nothing has broken, as 
+could happen were the structure of RangeMessage.xml to change.
