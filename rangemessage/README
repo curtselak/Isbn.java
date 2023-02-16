@@ -8,3 +8,14 @@ The release may be based on a copy of RangeMessage.xml that is older than
 the one in this folder. Releases are pro forma: I make them just to test 
 them regularly and to thereby make certain that nothing has broken, as 
 could happen were the structure of RangeMessage.xml to change.
+
+To generate the javadoc (you might want to compile Isbn.java just to do this, 
+if you find the javadoc easier to read than the pdf available from the 
+International ISBN Agency's website), use a command like the following:
+
+javadoc -author -protected -d ../Isbn/docs -link 
+https://docs.oracle.com/en/java/javase/11/docs/api 
+io.sourceforge.curtthomas.isbn
+
+where ../Isbn/docs stands for where you choose to 
+keep the command's output.
