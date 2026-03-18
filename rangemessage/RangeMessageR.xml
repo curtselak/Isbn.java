@@ -91,8 +91,18 @@
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>ENGLISH_LANGUAGE_0__900000_TO_949999_RANGE</Name>
-               <Range>9000000-9499999</Range>
+               <Name>ENGLISH_LANGUAGE_0__900000_TO_900370_RANGE</Name>
+               <Range>9000000-9003709</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_0__9003710_TO_9003719_RANGE</Name>
+               <Range>9003710-9003719</Range>
+               <Length>7</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_0__900372_TO_949999_RANGE</Name>
+               <Range>9003720-9499999</Range>
                <Length>6</Length>
             </Rule>
             <Rule>
@@ -127,14 +137,29 @@
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>ENGLISH_LANGUAGE_1__040_TO_049_RANGE</Name>
-               <Range>0400000-0499999</Range>
+               <Name>ENGLISH_LANGUAGE_1__040_TO_047_RANGE</Name>
+               <Range>0400000-0479999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ENGLISH_LANGUAGE_1__05_TO_06_RANGE</Name>
-               <Range>0500000-0699999</Range>
+               <Name>ENGLISH_LANGUAGE_1__0480_TO_0499_RANGE</Name>
+               <Range>0480000-0499999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_1__05_TO_05_RANGE</Name>
+               <Range>0500000-0599999</Range>
                <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>0600000-0669999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_1__0670000_TO_0699999_RANGE</Name>
+               <Range>0670000-0699999</Range>
+               <Length>7</Length>
             </Rule>
             <Rule>
                <Name>ENGLISH_LANGUAGE_1__0700_TO_0999_RANGE</Name>
@@ -187,8 +212,23 @@
                <Length>7</Length>
             </Rule>
             <Rule>
-               <Name>ENGLISH_LANGUAGE_1__74000_TO_77499_RANGE</Name>
-               <Range>7400000-7749999</Range>
+               <Name>ENGLISH_LANGUAGE_1__74000_TO_76199_RANGE</Name>
+               <Range>7400000-7619999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_1__7620_TO_7634_RANGE</Name>
+               <Range>7620000-7634999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_1__7635000_TO_7649999_RANGE</Name>
+               <Range>7635000-7649999</Range>
+               <Length>7</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_1__76500_TO_77499_RANGE</Name>
+               <Range>7650000-7749999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
@@ -282,8 +322,18 @@
                <Length>7</Length>
             </Rule>
             <Rule>
-               <Name>ENGLISH_LANGUAGE_1__916908_TO_919599_RANGE</Name>
-               <Range>9169080-9195999</Range>
+               <Name>ENGLISH_LANGUAGE_1__916908_TO_919163_RANGE</Name>
+               <Range>9169080-9191639</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_1__9191640_TO_9195649_RANGE</Name>
+               <Range>9191640-9195649</Range>
+               <Length>7</Length>
+            </Rule>
+            <Rule>
+               <Name>ENGLISH_LANGUAGE_1__919565_TO_919599_RANGE</Name>
+               <Range>9195650-9195999</Range>
                <Length>6</Length>
             </Rule>
             <Rule>
@@ -368,8 +418,18 @@
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>FRENCH_LANGUAGE__497_TO_699_RANGE</Name>
-               <Range>4970000-6999999</Range>
+               <Name>FRENCH_LANGUAGE__497_TO_527_RANGE</Name>
+               <Range>4970000-5279999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>FRENCH_LANGUAGE__5280_TO_5299_RANGE</Name>
+               <Range>5280000-5299999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>FRENCH_LANGUAGE__530_TO_699_RANGE</Name>
+               <Range>5300000-6999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
@@ -444,13 +504,28 @@
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>GERMAN_LANGUAGE__200_TO_699_RANGE</Name>
-               <Range>2000000-6999999</Range>
+               <Name>GERMAN_LANGUAGE__200_TO_389_RANGE</Name>
+               <Range>2000000-3899999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>GERMAN_LANGUAGE__7000_TO_8499_RANGE</Name>
-               <Range>7000000-8499999</Range>
+               <Name>GERMAN_LANGUAGE__39_TO_39_RANGE</Name>
+               <Range>3900000-3999999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>GERMAN_LANGUAGE__400_TO_688_RANGE</Name>
+               <Range>4000000-6889999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>GERMAN_LANGUAGE__68900_TO_69499_RANGE</Name>
+               <Range>6890000-6949999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>GERMAN_LANGUAGE__6950_TO_8499_RANGE</Name>
+               <Range>6950000-8499999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
@@ -479,9 +554,14 @@
                <Length>7</Length>
             </Rule>
             <Rule>
-               <Name>GERMAN_LANGUAGE__98500_TO_99999_RANGE</Name>
-               <Range>9850000-9999999</Range>
+               <Name>GERMAN_LANGUAGE__98500_TO_99959_RANGE</Name>
+               <Range>9850000-9995999</Range>
                <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>GERMAN_LANGUAGE__9996_TO_9999_RANGE</Name>
+               <Range>9996000-9999999</Range>
+               <Length>4</Length>
             </Rule>
          </Rules>
       </Group>
@@ -833,45 +913,45 @@
       </Group>
       <Group>
          <Prefix>978-604</Prefix>
-         <Agency name="Vietnam">VIETNAM</Agency>
+         <Agency name="Vietnam">VIETNAM_0</Agency>
          <Rules>
             <Rule>
-               <Name>VIETNAM__0_TO_2_RANGE</Name>
+               <Name>VIETNAM_0__0_TO_2_RANGE</Name>
                <Range>0000000-2999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>VIETNAM__300_TO_399_RANGE</Name>
+               <Name>VIETNAM_0__300_TO_399_RANGE</Name>
                <Range>3000000-3999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>VIETNAM__40_TO_46_RANGE</Name>
+               <Name>VIETNAM_0__40_TO_46_RANGE</Name>
                <Range>4000000-4699999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>VIETNAM__470_TO_497_RANGE</Name>
+               <Name>VIETNAM_0__470_TO_497_RANGE</Name>
                <Range>4700000-4979999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>VIETNAM__4980_TO_4999_RANGE</Name>
+               <Name>VIETNAM_0__4980_TO_4999_RANGE</Name>
                <Range>4980000-4999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>VIETNAM__50_TO_89_RANGE</Name>
+               <Name>VIETNAM_0__50_TO_89_RANGE</Name>
                <Range>5000000-8999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>VIETNAM__900_TO_979_RANGE</Name>
+               <Name>VIETNAM_0__900_TO_979_RANGE</Name>
                <Range>9000000-9799999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>VIETNAM__9800_TO_9999_RANGE</Name>
+               <Name>VIETNAM_0__9800_TO_9999_RANGE</Name>
                <Range>9800000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -879,70 +959,70 @@
       </Group>
       <Group>
          <Prefix>978-605</Prefix>
-         <Agency name="Turkey">TURKEY_0</Agency>
+         <Agency name="Türkiye">TÜRKIYE_0</Agency>
          <Rules>
             <Rule>
-               <Name>TURKEY_0__00_TO_02_RANGE</Name>
+               <Name>TÜRKIYE_0__00_TO_02_RANGE</Name>
                <Range>0000000-0299999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__030_TO_039_RANGE</Name>
+               <Name>TÜRKIYE_0__030_TO_039_RANGE</Name>
                <Range>0300000-0399999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__04_TO_05_RANGE</Name>
+               <Name>TÜRKIYE_0__04_TO_05_RANGE</Name>
                <Range>0400000-0599999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__06000_TO_06999_RANGE</Name>
+               <Name>TÜRKIYE_0__06000_TO_06999_RANGE</Name>
                <Range>0600000-0699999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__07_TO_09_RANGE</Name>
+               <Name>TÜRKIYE_0__07_TO_09_RANGE</Name>
                <Range>0700000-0999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__100_TO_199_RANGE</Name>
+               <Name>TÜRKIYE_0__100_TO_199_RANGE</Name>
                <Range>1000000-1999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__2000_TO_2399_RANGE</Name>
+               <Name>TÜRKIYE_0__2000_TO_2399_RANGE</Name>
                <Range>2000000-2399999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__240_TO_399_RANGE</Name>
+               <Name>TÜRKIYE_0__240_TO_399_RANGE</Name>
                <Range>2400000-3999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__4000_TO_5999_RANGE</Name>
+               <Name>TÜRKIYE_0__4000_TO_5999_RANGE</Name>
                <Range>4000000-5999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__60000_TO_74999_RANGE</Name>
+               <Name>TÜRKIYE_0__60000_TO_74999_RANGE</Name>
                <Range>6000000-7499999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__7500_TO_7999_RANGE</Name>
+               <Name>TÜRKIYE_0__7500_TO_7999_RANGE</Name>
                <Range>7500000-7999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__80000_TO_89999_RANGE</Name>
+               <Name>TÜRKIYE_0__80000_TO_89999_RANGE</Name>
                <Range>8000000-8999999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_0__9000_TO_9999_RANGE</Name>
+               <Name>TÜRKIYE_0__9000_TO_9999_RANGE</Name>
                <Range>9000000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -999,14 +1079,34 @@
          <Agency name="Mexico">MEXICO_0</Agency>
          <Rules>
             <Rule>
-               <Name>MEXICO_0__00_TO_39_RANGE</Name>
-               <Range>0000000-3999999</Range>
+               <Name>MEXICO_0__00_TO_25_RANGE</Name>
+               <Range>0000000-2599999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>MEXICO_0__400_TO_592_RANGE</Name>
-               <Range>4000000-5929999</Range>
+               <Name>MEXICO_0__2600_TO_2649_RANGE</Name>
+               <Range>2600000-2649999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>MEXICO_0__26500_TO_26999_RANGE</Name>
+               <Range>2650000-2699999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>MEXICO_0__27_TO_39_RANGE</Name>
+               <Range>2700000-3999999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>MEXICO_0__400_TO_588_RANGE</Name>
+               <Range>4000000-5889999</Range>
                <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>MEXICO_0__5890_TO_5929_RANGE</Name>
+               <Range>5890000-5929999</Range>
+               <Length>4</Length>
             </Rule>
             <Rule>
                <Name>MEXICO_0__59300_TO_59999_RANGE</Name>
@@ -1014,8 +1114,18 @@
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>MEXICO_0__600_TO_749_RANGE</Name>
-               <Range>6000000-7499999</Range>
+               <Name>MEXICO_0__600_TO_691_RANGE</Name>
+               <Range>6000000-6919999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>MEXICO_0__69200_TO_69999_RANGE</Name>
+               <Range>6920000-6999999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>MEXICO_0__700_TO_749_RANGE</Name>
+               <Range>7000000-7499999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
@@ -1128,14 +1238,19 @@
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>PERU_0__5000_TO_5149_RANGE</Name>
-               <Range>5000000-5149999</Range>
+               <Name>PERU_0__5000_TO_5299_RANGE</Name>
+               <Range>5000000-5299999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>5150000-9999999</Range>
+               <Range>5300000-9899999</Range>
                <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>PERU_0__99000_TO_99999_RANGE</Name>
+               <Range>9900000-9999999</Range>
+               <Length>5</Length>
             </Rule>
          </Rules>
       </Group>
@@ -1373,33 +1488,53 @@
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>1100000-1999999</Range>
-               <Length>0</Length>
+               <Name>IRAN_1__110_TO_129_RANGE</Name>
+               <Range>1100000-1299999</Range>
+               <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>IRAN_1__200_TO_424_RANGE</Name>
-               <Range>2000000-4249999</Range>
+               <Name>IRAN_1__1300_TO_1799_RANGE</Name>
+               <Range>1300000-1799999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>IRAN_1__180_TO_181_RANGE</Name>
+               <Range>1800000-1819999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>4250000-5199999</Range>
+               <Range>1820000-1829999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>IRAN_1__5200_TO_8499_RANGE</Name>
-               <Range>5200000-8499999</Range>
+               <Name>IRAN_1__1830_TO_1899_RANGE</Name>
+               <Range>1830000-1899999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>8500000-8999999</Range>
+               <Range>1900000-1949999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>IRAN_1__90000_TO_99999_RANGE</Name>
-               <Range>9000000-9999999</Range>
+               <Name>IRAN_1__19500_TO_19999_RANGE</Name>
+               <Range>1950000-1999999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>IRAN_1__200_TO_459_RANGE</Name>
+               <Range>2000000-4599999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>IRAN_1__4600_TO_8749_RANGE</Name>
+               <Range>4600000-8749999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>IRAN_1__87500_TO_99999_RANGE</Name>
+               <Range>8750000-9999999</Range>
                <Length>5</Length>
             </Rule>
          </Rules>
@@ -1409,24 +1544,14 @@
          <Agency name="Indonesia">INDONESIA_1</Agency>
          <Rules>
             <Rule>
-               <Name>INDONESIA_1__00_TO_09_RANGE</Name>
-               <Range>0000000-0999999</Range>
+               <Name>INDONESIA_1__00_TO_10_RANGE</Name>
+               <Range>0000000-1099999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>1000000-1299999</Range>
-               <Length>0</Length>
-            </Rule>
-            <Rule>
-               <Name>INDONESIA_1__130_TO_499_RANGE</Name>
-               <Range>1300000-4999999</Range>
+               <Name>INDONESIA_1__110_TO_524_RANGE</Name>
+               <Range>1100000-5249999</Range>
                <Length>3</Length>
-            </Rule>
-            <Rule>
-               <Name/>
-               <Range>5000000-5249999</Range>
-               <Length>0</Length>
             </Rule>
             <Rule>
                <Name>INDONESIA_1__5250_TO_8799_RANGE</Name>
@@ -1461,83 +1586,78 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>2500000-4999999</Range>
+               <Range>2500000-4849999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>SRI_LANKA_0__5000_TO_6449_RANGE</Name>
-               <Range>5000000-6449999</Range>
+               <Name>SRI_LANKA_0__4850_TO_6899_RANGE</Name>
+               <Range>4850000-6899999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>6450000-9449999</Range>
+               <Range>6900000-9099999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>SRI_LANKA_0__94500_TO_99999_RANGE</Name>
-               <Range>9450000-9999999</Range>
+               <Name>SRI_LANKA_0__91000_TO_99999_RANGE</Name>
+               <Range>9100000-9999999</Range>
                <Length>5</Length>
             </Rule>
          </Rules>
       </Group>
       <Group>
          <Prefix>978-625</Prefix>
-         <Agency name="Turkey">TURKEY_1</Agency>
+         <Agency name="Türkiye">TÜRKIYE_1</Agency>
          <Rules>
             <Rule>
-               <Name>TURKEY_1__00_TO_00_RANGE</Name>
-               <Range>0000000-0099999</Range>
+               <Name>TÜRKIYE_1__00_TO_01_RANGE</Name>
+               <Range>0000000-0199999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>0100000-3649999</Range>
+               <Range>0200000-3199999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_1__365_TO_442_RANGE</Name>
-               <Range>3650000-4429999</Range>
+               <Name>TÜRKIYE_1__320_TO_442_RANGE</Name>
+               <Range>3200000-4429999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_1__44300_TO_44499_RANGE</Name>
+               <Name>TÜRKIYE_1__44300_TO_44499_RANGE</Name>
                <Range>4430000-4449999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_1__445_TO_449_RANGE</Name>
+               <Name>TÜRKIYE_1__445_TO_449_RANGE</Name>
                <Range>4450000-4499999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>4500000-6349999</Range>
+               <Range>4500000-5499999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_1__6350_TO_7793_RANGE</Name>
-               <Range>6350000-7793999</Range>
+               <Name>TÜRKIYE_1__5500_TO_7793_RANGE</Name>
+               <Range>5500000-7793999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_1__77940_TO_77949_RANGE</Name>
+               <Name>TÜRKIYE_1__77940_TO_77949_RANGE</Name>
                <Range>7794000-7794999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_1__7795_TO_8499_RANGE</Name>
-               <Range>7795000-8499999</Range>
+               <Name>TÜRKIYE_1__7795_TO_8999_RANGE</Name>
+               <Range>7795000-8999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>8500000-9899999</Range>
-               <Length>0</Length>
-            </Rule>
-            <Rule>
-               <Name>TURKEY_1__99000_TO_99999_RANGE</Name>
-               <Range>9900000-9999999</Range>
+               <Name>TÜRKIYE_1__90000_TO_99999_RANGE</Name>
+               <Range>9000000-9999999</Range>
                <Length>5</Length>
             </Rule>
          </Rules>
@@ -1573,12 +1693,12 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>8000000-9499999</Range>
+               <Range>8000000-9249999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>TAIWAN_0__95000_TO_99999_RANGE</Name>
-               <Range>9500000-9999999</Range>
+               <Name>TAIWAN_0__92500_TO_99999_RANGE</Name>
+               <Range>9250000-9999999</Range>
                <Length>5</Length>
             </Rule>
          </Rules>
@@ -1589,12 +1709,12 @@
          <Rules>
             <Rule>
                <Name/>
-               <Range>0000000-2999999</Range>
+               <Range>0000000-2799999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>PAKISTAN_0__30_TO_31_RANGE</Name>
-               <Range>3000000-3199999</Range>
+               <Name>PAKISTAN_0__28_TO_31_RANGE</Name>
+               <Range>2800000-3199999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
@@ -1603,23 +1723,33 @@
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>PAKISTAN_0__500_TO_524_RANGE</Name>
-               <Range>5000000-5249999</Range>
+               <Name>PAKISTAN_0__500_TO_534_RANGE</Name>
+               <Range>5000000-5349999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>5250000-7499999</Range>
+               <Range>5350000-7399999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>PAKISTAN_0__7500_TO_7999_RANGE</Name>
-               <Range>7500000-7999999</Range>
+               <Name>PAKISTAN_0__7400_TO_7999_RANGE</Name>
+               <Range>7400000-7999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>8000000-9999999</Range>
+               <Range>8000000-9449999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>PAKISTAN_0__94500_TO_95149_RANGE</Name>
+               <Range>9450000-9514999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>9515000-9999999</Range>
                <Length>0</Length>
             </Rule>
          </Rules>
@@ -1676,12 +1806,12 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>0300000-4699999</Range>
+               <Range>0300000-4549999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>MALAYSIA_0__470_TO_499_RANGE</Name>
-               <Range>4700000-4999999</Range>
+               <Name>MALAYSIA_0__455_TO_499_RANGE</Name>
+               <Range>4550000-4999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
@@ -1696,12 +1826,12 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>8000000-9649999</Range>
+               <Range>8000000-9199999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>MALAYSIA_0__96500_TO_99999_RANGE</Name>
-               <Range>9650000-9999999</Range>
+               <Name>MALAYSIA_0__92000_TO_99999_RANGE</Name>
+               <Range>9200000-9999999</Range>
                <Length>5</Length>
             </Rule>
          </Rules>
@@ -1716,13 +1846,13 @@
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>ROMANIA_1__300_TO_349_RANGE</Name>
-               <Range>3000000-3499999</Range>
+               <Name>ROMANIA_1__300_TO_399_RANGE</Name>
+               <Range>3000000-3999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>3500000-6499999</Range>
+               <Range>4000000-6499999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
@@ -1732,8 +1862,13 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>6850000-9999999</Range>
+               <Range>6850000-9499999</Range>
                <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ROMANIA_1__95000_TO_99999_RANGE</Name>
+               <Range>9500000-9999999</Range>
+               <Length>5</Length>
             </Rule>
          </Rules>
       </Group>
@@ -1779,17 +1914,125 @@
          </Rules>
       </Group>
       <Group>
-         <Prefix>978-65</Prefix>
-         <Agency name="Brazil">BRAZIL_0</Agency>
+         <Prefix>978-632</Prefix>
+         <Agency name="Vietnam">VIETNAM_1</Agency>
          <Rules>
             <Rule>
-               <Name>BRAZIL_0__00_TO_01_RANGE</Name>
+               <Name>VIETNAM_1__00_TO_11_RANGE</Name>
+               <Range>0000000-1199999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>1200000-5999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>VIETNAM_1__600_TO_679_RANGE</Name>
+               <Range>6000000-6799999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>6800000-9999999</Range>
+               <Length>0</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-633</Prefix>
+         <Agency name="Egypt">EGYPT_0</Agency>
+         <Rules>
+            <Rule>
+               <Name>EGYPT_0__00_TO_01_RANGE</Name>
                <Range>0000000-0199999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>0200000-2499999</Range>
+               <Range>0200000-2999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>EGYPT_0__300_TO_349_RANGE</Name>
+               <Range>3000000-3499999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>3500000-8249999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>EGYPT_0__8250_TO_8999_RANGE</Name>
+               <Range>8250000-8999999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>9000000-9949999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>EGYPT_0__99500_TO_99999_RANGE</Name>
+               <Range>9950000-9999999</Range>
+               <Length>5</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-634</Prefix>
+         <Agency name="Indonesia">INDONESIA_2</Agency>
+         <Rules>
+            <Rule>
+               <Name>INDONESIA_2__00_TO_04_RANGE</Name>
+               <Range>0000000-0499999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>0500000-1999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>INDONESIA_2__200_TO_349_RANGE</Name>
+               <Range>2000000-3499999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>3500000-6999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>INDONESIA_2__7000_TO_7999_RANGE</Name>
+               <Range>7000000-7999999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>8000000-9599999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>INDONESIA_2__96000_TO_99999_RANGE</Name>
+               <Range>9600000-9999999</Range>
+               <Length>5</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-65</Prefix>
+         <Agency name="Brazil">BRAZIL_0</Agency>
+         <Rules>
+            <Rule>
+               <Name>BRAZIL_0__00_TO_02_RANGE</Name>
+               <Range>0000000-0299999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>0300000-2499999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
@@ -1808,23 +2051,13 @@
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>BRAZIL_0__5000_TO_5129_RANGE</Name>
-               <Range>5000000-5129999</Range>
+               <Name>BRAZIL_0__5000_TO_6349_RANGE</Name>
+               <Range>5000000-6349999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>5130000-5349999</Range>
-               <Length>0</Length>
-            </Rule>
-            <Rule>
-               <Name>BRAZIL_0__5350_TO_6149_RANGE</Name>
-               <Range>5350000-6149999</Range>
-               <Length>4</Length>
-            </Rule>
-            <Rule>
-               <Name/>
-               <Range>6150000-7999999</Range>
+               <Range>6350000-7999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
@@ -1834,12 +2067,12 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>8182500-8449999</Range>
+               <Range>8182500-8199999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>BRAZIL_0__84500_TO_89999_RANGE</Name>
-               <Range>8450000-8999999</Range>
+               <Name>BRAZIL_0__82000_TO_89999_RANGE</Name>
+               <Range>8200000-8999999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
@@ -1849,13 +2082,39 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>9024500-9799999</Range>
+               <Range>9024500-9754999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>BRAZIL_0__980000_TO_999999_RANGE</Name>
-               <Range>9800000-9999999</Range>
+               <Name>BRAZIL_0__975500_TO_999999_RANGE</Name>
+               <Range>9755000-9999999</Range>
                <Length>6</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-69990</Prefix>
+         <Agency name="Zambia registration group">ZAMBIA_REGISTRATION_GROUP</Agency>
+         <Rules>
+            <Rule>
+               <Name/>
+               <Range>0000000-4999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ZAMBIA_REGISTRATION_GROUP__50_TO_50_RANGE</Name>
+               <Range>5000000-5099999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>5100000-9969999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ZAMBIA_REGISTRATION_GROUP__997_TO_999_RANGE</Name>
+               <Range>9970000-9999999</Range>
+               <Length>3</Length>
             </Rule>
          </Rules>
       </Group>
@@ -1956,9 +2215,14 @@
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>INDIA_0__200_TO_699_RANGE</Name>
-               <Range>2000000-6999999</Range>
+               <Name>INDIA_0__200_TO_689_RANGE</Name>
+               <Range>2000000-6899999</Range>
                <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>INDIA_0__69000_TO_69999_RANGE</Name>
+               <Range>6900000-6999999</Range>
+               <Length>5</Length>
             </Rule>
             <Rule>
                <Name>INDIA_0__7000_TO_8499_RANGE</Name>
@@ -2051,85 +2315,85 @@
       </Group>
       <Group>
          <Prefix>978-84</Prefix>
-         <Agency name="Spain">SPAIN</Agency>
+         <Agency name="Spain">SPAIN_0</Agency>
          <Rules>
             <Rule>
-               <Name>SPAIN__00_TO_09_RANGE</Name>
+               <Name>SPAIN_0__00_TO_09_RANGE</Name>
                <Range>0000000-0999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__10000_TO_10499_RANGE</Name>
+               <Name>SPAIN_0__10000_TO_10499_RANGE</Name>
                <Range>1000000-1049999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__1050_TO_1199_RANGE</Name>
+               <Name>SPAIN_0__1050_TO_1199_RANGE</Name>
                <Range>1050000-1199999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__120000_TO_129999_RANGE</Name>
+               <Name>SPAIN_0__120000_TO_129999_RANGE</Name>
                <Range>1200000-1299999</Range>
                <Length>6</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__1300_TO_1399_RANGE</Name>
+               <Name>SPAIN_0__1300_TO_1399_RANGE</Name>
                <Range>1300000-1399999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__140_TO_149_RANGE</Name>
+               <Name>SPAIN_0__140_TO_149_RANGE</Name>
                <Range>1400000-1499999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__15000_TO_19999_RANGE</Name>
+               <Name>SPAIN_0__15000_TO_19999_RANGE</Name>
                <Range>1500000-1999999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__200_TO_699_RANGE</Name>
+               <Name>SPAIN_0__200_TO_699_RANGE</Name>
                <Range>2000000-6999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__7000_TO_8499_RANGE</Name>
+               <Name>SPAIN_0__7000_TO_8499_RANGE</Name>
                <Range>7000000-8499999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__85000_TO_89999_RANGE</Name>
+               <Name>SPAIN_0__85000_TO_89999_RANGE</Name>
                <Range>8500000-8999999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__9000_TO_9199_RANGE</Name>
+               <Name>SPAIN_0__9000_TO_9199_RANGE</Name>
                <Range>9000000-9199999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__920000_TO_923999_RANGE</Name>
+               <Name>SPAIN_0__920000_TO_923999_RANGE</Name>
                <Range>9200000-9239999</Range>
                <Length>6</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__92400_TO_92999_RANGE</Name>
+               <Name>SPAIN_0__92400_TO_92999_RANGE</Name>
                <Range>9240000-9299999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__930000_TO_949999_RANGE</Name>
+               <Name>SPAIN_0__930000_TO_949999_RANGE</Name>
                <Range>9300000-9499999</Range>
                <Length>6</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__95000_TO_96999_RANGE</Name>
+               <Name>SPAIN_0__95000_TO_96999_RANGE</Name>
                <Range>9500000-9699999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>SPAIN__9700_TO_9999_RANGE</Name>
+               <Name>SPAIN_0__9700_TO_9999_RANGE</Name>
                <Range>9700000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -2567,12 +2831,12 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>6500000-6999999</Range>
+               <Range>6500000-6849999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>SWEDEN__7000_TO_8199_RANGE</Name>
-               <Range>7000000-8199999</Range>
+               <Name>SWEDEN__6850_TO_8199_RANGE</Name>
+               <Range>6850000-8199999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
@@ -2643,9 +2907,19 @@
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>INDIA_1__100_TO_499_RANGE</Name>
-               <Range>1000000-4999999</Range>
+               <Name>INDIA_1__100_TO_469_RANGE</Name>
+               <Range>1000000-4699999</Range>
                <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>INDIA_1__47000_TO_47999_RANGE</Name>
+               <Range>4700000-4799999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>INDIA_1__48000_TO_49999_RANGE</Name>
+               <Range>4800000-4999999</Range>
+               <Length>5</Length>
             </Rule>
             <Rule>
                <Name>INDIA_1__5000_TO_7999_RANGE</Name>
@@ -2674,8 +2948,593 @@
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>NETHERLANDS_1__6000_TO_8999_RANGE</Name>
-               <Range>6000000-8999999</Range>
+               <Name>NETHERLANDS_1__6000_TO_6387_RANGE</Name>
+               <Range>6000000-6387999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__638800_TO_638809_RANGE</Name>
+               <Range>6388000-6388099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__63881_TO_63881_RANGE</Name>
+               <Range>6388100-6388199</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__638820_TO_638839_RANGE</Name>
+               <Range>6388200-6388399</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__63884_TO_63885_RANGE</Name>
+               <Range>6388400-6388599</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__638860_TO_638869_RANGE</Name>
+               <Range>6388600-6388699</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__63887_TO_63889_RANGE</Name>
+               <Range>6388700-6388999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6389_TO_6395_RANGE</Name>
+               <Range>6389000-6395999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__639600_TO_639609_RANGE</Name>
+               <Range>6396000-6396099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__63961_TO_63962_RANGE</Name>
+               <Range>6396100-6396299</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__639630_TO_639639_RANGE</Name>
+               <Range>6396300-6396399</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__63964_TO_63964_RANGE</Name>
+               <Range>6396400-6396499</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__639650_TO_639659_RANGE</Name>
+               <Range>6396500-6396599</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__63966_TO_63969_RANGE</Name>
+               <Range>6396600-6396999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6397_TO_6399_RANGE</Name>
+               <Range>6397000-6399999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__640000_TO_640009_RANGE</Name>
+               <Range>6400000-6400099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64001_TO_64004_RANGE</Name>
+               <Range>6400100-6400499</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__640050_TO_640059_RANGE</Name>
+               <Range>6400500-6400599</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64006_TO_64006_RANGE</Name>
+               <Range>6400600-6400699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__640070_TO_640089_RANGE</Name>
+               <Range>6400700-6400899</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64009_TO_64009_RANGE</Name>
+               <Range>6400900-6400999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6401_TO_6406_RANGE</Name>
+               <Range>6401000-6406999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__640700_TO_640739_RANGE</Name>
+               <Range>6407000-6407399</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64074_TO_64074_RANGE</Name>
+               <Range>6407400-6407499</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__640750_TO_640759_RANGE</Name>
+               <Range>6407500-6407599</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64076_TO_64077_RANGE</Name>
+               <Range>6407600-6407799</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__640780_TO_640799_RANGE</Name>
+               <Range>6407800-6407999</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6408_TO_6419_RANGE</Name>
+               <Range>6408000-6419999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64200_TO_64201_RANGE</Name>
+               <Range>6420000-6420199</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__642020_TO_642029_RANGE</Name>
+               <Range>6420200-6420299</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64203_TO_64203_RANGE</Name>
+               <Range>6420300-6420399</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__642040_TO_642049_RANGE</Name>
+               <Range>6420400-6420499</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64205_TO_64206_RANGE</Name>
+               <Range>6420500-6420699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__642070_TO_642079_RANGE</Name>
+               <Range>6420700-6420799</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64208_TO_64208_RANGE</Name>
+               <Range>6420800-6420899</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__642090_TO_642099_RANGE</Name>
+               <Range>6420900-6420999</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6421_TO_6432_RANGE</Name>
+               <Range>6421000-6432999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64330_TO_64331_RANGE</Name>
+               <Range>6433000-6433199</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__643320_TO_643329_RANGE</Name>
+               <Range>6433200-6433299</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64333_TO_64333_RANGE</Name>
+               <Range>6433300-6433399</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__643340_TO_643359_RANGE</Name>
+               <Range>6433400-6433599</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64336_TO_64336_RANGE</Name>
+               <Range>6433600-6433699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__643370_TO_643379_RANGE</Name>
+               <Range>6433700-6433799</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64338_TO_64339_RANGE</Name>
+               <Range>6433800-6433999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6434_TO_6435_RANGE</Name>
+               <Range>6434000-6435999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__643600_TO_643609_RANGE</Name>
+               <Range>6436000-6436099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64361_TO_64363_RANGE</Name>
+               <Range>6436100-6436399</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__643640_TO_643659_RANGE</Name>
+               <Range>6436400-6436599</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64366_TO_64366_RANGE</Name>
+               <Range>6436600-6436699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__643670_TO_643679_RANGE</Name>
+               <Range>6436700-6436799</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64368_TO_64369_RANGE</Name>
+               <Range>6436800-6436999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6437_TO_6443_RANGE</Name>
+               <Range>6437000-6443999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__644400_TO_644409_RANGE</Name>
+               <Range>6444000-6444099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64441_TO_64441_RANGE</Name>
+               <Range>6444100-6444199</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__644420_TO_644429_RANGE</Name>
+               <Range>6444200-6444299</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64443_TO_64443_RANGE</Name>
+               <Range>6444300-6444399</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__644440_TO_644449_RANGE</Name>
+               <Range>6444400-6444499</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64445_TO_64446_RANGE</Name>
+               <Range>6444500-6444699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__644470_TO_644489_RANGE</Name>
+               <Range>6444700-6444899</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64449_TO_64449_RANGE</Name>
+               <Range>6444900-6444999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6445_TO_6450_RANGE</Name>
+               <Range>6445000-6450999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64510_TO_64512_RANGE</Name>
+               <Range>6451000-6451299</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__645130_TO_645139_RANGE</Name>
+               <Range>6451300-6451399</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64514_TO_64515_RANGE</Name>
+               <Range>6451400-6451599</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__645160_TO_645199_RANGE</Name>
+               <Range>6451600-6451999</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6452_TO_6458_RANGE</Name>
+               <Range>6452000-6458999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__645900_TO_645909_RANGE</Name>
+               <Range>6459000-6459099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64591_TO_64592_RANGE</Name>
+               <Range>6459100-6459299</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__645930_TO_645949_RANGE</Name>
+               <Range>6459300-6459499</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64595_TO_64596_RANGE</Name>
+               <Range>6459500-6459699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__645970_TO_645989_RANGE</Name>
+               <Range>6459700-6459899</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64599_TO_64599_RANGE</Name>
+               <Range>6459900-6459999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6460_TO_6465_RANGE</Name>
+               <Range>6460000-6465999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__646600_TO_646609_RANGE</Name>
+               <Range>6466000-6466099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64661_TO_64662_RANGE</Name>
+               <Range>6466100-6466299</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__646630_TO_646659_RANGE</Name>
+               <Range>6466300-6466599</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64666_TO_64666_RANGE</Name>
+               <Range>6466600-6466699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__646670_TO_646689_RANGE</Name>
+               <Range>6466700-6466899</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64669_TO_64669_RANGE</Name>
+               <Range>6466900-6466999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6467_TO_6474_RANGE</Name>
+               <Range>6467000-6474999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64750_TO_64751_RANGE</Name>
+               <Range>6475000-6475199</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647520_TO_647539_RANGE</Name>
+               <Range>6475200-6475399</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64754_TO_64754_RANGE</Name>
+               <Range>6475400-6475499</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647550_TO_647559_RANGE</Name>
+               <Range>6475500-6475599</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64756_TO_64757_RANGE</Name>
+               <Range>6475600-6475799</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647580_TO_647589_RANGE</Name>
+               <Range>6475800-6475899</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64759_TO_64759_RANGE</Name>
+               <Range>6475900-6475999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6476_TO_6476_RANGE</Name>
+               <Range>6476000-6476999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647700_TO_647708_RANGE</Name>
+               <Range>6477000-6477089</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>6477090-6477099</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64771_TO_64771_RANGE</Name>
+               <Range>6477100-6477199</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>6477200-6477229</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647723_TO_647729_RANGE</Name>
+               <Range>6477230-6477299</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64773_TO_64773_RANGE</Name>
+               <Range>6477300-6477399</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647740_TO_647769_RANGE</Name>
+               <Range>6477400-6477699</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64777_TO_64779_RANGE</Name>
+               <Range>6477700-6477999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647800_TO_647809_RANGE</Name>
+               <Range>6478000-6478099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64781_TO_64781_RANGE</Name>
+               <Range>6478100-6478199</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647820_TO_647829_RANGE</Name>
+               <Range>6478200-6478299</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64783_TO_64786_RANGE</Name>
+               <Range>6478300-6478699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__647870_TO_647879_RANGE</Name>
+               <Range>6478700-6478799</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64788_TO_64789_RANGE</Name>
+               <Range>6478800-6478999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6479_TO_6493_RANGE</Name>
+               <Range>6479000-6493999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__649400_TO_649409_RANGE</Name>
+               <Range>6494000-6494099</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64941_TO_64942_RANGE</Name>
+               <Range>6494100-6494299</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__649430_TO_649449_RANGE</Name>
+               <Range>6494300-6494499</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64945_TO_64946_RANGE</Name>
+               <Range>6494500-6494699</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__649470_TO_649479_RANGE</Name>
+               <Range>6494700-6494799</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64948_TO_64948_RANGE</Name>
+               <Range>6494800-6494899</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__649490_TO_649499_RANGE</Name>
+               <Range>6494900-6494999</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6495_TO_6497_RANGE</Name>
+               <Range>6495000-6497999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64980_TO_64980_RANGE</Name>
+               <Range>6498000-6498099</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__649810_TO_649829_RANGE</Name>
+               <Range>6498100-6498299</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64983_TO_64984_RANGE</Name>
+               <Range>6498300-6498499</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__649850_TO_649869_RANGE</Name>
+               <Range>6498500-6498699</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__64987_TO_64987_RANGE</Name>
+               <Range>6498700-6498799</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__649880_TO_649899_RANGE</Name>
+               <Range>6498800-6498999</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name>NETHERLANDS_1__6499_TO_8999_RANGE</Name>
+               <Range>6499000-8999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
@@ -2747,9 +3606,19 @@
          <Agency name="Finland">FINLAND_1</Agency>
          <Rules>
             <Rule>
-               <Name>FINLAND_1__00_TO_19_RANGE</Name>
-               <Range>0000000-1999999</Range>
+               <Name>FINLAND_1__00_TO_18_RANGE</Name>
+               <Range>0000000-1899999</Range>
                <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>1900000-1949999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>FINLAND_1__19500_TO_19999_RANGE</Name>
+               <Range>1950000-1999999</Range>
+               <Length>5</Length>
             </Rule>
             <Rule>
                <Name>FINLAND_1__200_TO_499_RANGE</Name>
@@ -2818,13 +3687,13 @@
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>CROATIA__150_TO_479_RANGE</Name>
-               <Range>1500000-4799999</Range>
+               <Name>CROATIA__150_TO_459_RANGE</Name>
+               <Range>1500000-4599999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>CROATIA__48000_TO_49999_RANGE</Name>
-               <Range>4800000-4999999</Range>
+               <Name>CROATIA__46000_TO_49999_RANGE</Name>
+               <Range>4600000-4999999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
@@ -2976,9 +3845,19 @@
          <Agency name="Chile">CHILE</Agency>
          <Rules>
             <Rule>
-               <Name>CHILE__00_TO_08_RANGE</Name>
-               <Range>0000000-0899999</Range>
+               <Name>CHILE__00_TO_07_RANGE</Name>
+               <Range>0000000-0799999</Range>
                <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>CHILE__08000_TO_08499_RANGE</Name>
+               <Range>0800000-0849999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>0850000-0899999</Range>
+               <Length>0</Length>
             </Rule>
             <Rule>
                <Name>CHILE__09000_TO_09999_RANGE</Name>
@@ -3807,40 +4686,40 @@
       </Group>
       <Group>
          <Prefix>978-975</Prefix>
-         <Agency name="Turkey">TURKEY_2</Agency>
+         <Agency name="Türkiye">TÜRKIYE_2</Agency>
          <Rules>
             <Rule>
-               <Name>TURKEY_2__00000_TO_01999_RANGE</Name>
+               <Name>TÜRKIYE_2__00000_TO_01999_RANGE</Name>
                <Range>0000000-0199999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_2__02_TO_23_RANGE</Name>
+               <Name>TÜRKIYE_2__02_TO_23_RANGE</Name>
                <Range>0200000-2399999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_2__2400_TO_2499_RANGE</Name>
+               <Name>TÜRKIYE_2__2400_TO_2499_RANGE</Name>
                <Range>2400000-2499999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_2__250_TO_599_RANGE</Name>
+               <Name>TÜRKIYE_2__250_TO_599_RANGE</Name>
                <Range>2500000-5999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_2__6000_TO_9199_RANGE</Name>
+               <Name>TÜRKIYE_2__6000_TO_9199_RANGE</Name>
                <Range>6000000-9199999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_2__92000_TO_98999_RANGE</Name>
+               <Name>TÜRKIYE_2__92000_TO_98999_RANGE</Name>
                <Range>9200000-9899999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_2__990_TO_999_RANGE</Name>
+               <Name>TÜRKIYE_2__990_TO_999_RANGE</Name>
                <Range>9900000-9999999</Range>
                <Length>3</Length>
             </Rule>
@@ -3879,51 +4758,61 @@
       </Group>
       <Group>
          <Prefix>978-977</Prefix>
-         <Agency name="Egypt">EGYPT</Agency>
+         <Agency name="Egypt">EGYPT_1</Agency>
          <Rules>
             <Rule>
-               <Name>EGYPT__00_TO_19_RANGE</Name>
+               <Name>EGYPT_1__00_TO_19_RANGE</Name>
                <Range>0000000-1999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>EGYPT__200_TO_499_RANGE</Name>
+               <Name>EGYPT_1__200_TO_499_RANGE</Name>
                <Range>2000000-4999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>EGYPT__5000_TO_6999_RANGE</Name>
+               <Name>EGYPT_1__5000_TO_6999_RANGE</Name>
                <Range>5000000-6999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>EGYPT__700_TO_849_RANGE</Name>
+               <Name>EGYPT_1__700_TO_849_RANGE</Name>
                <Range>7000000-8499999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>EGYPT__85000_TO_89299_RANGE</Name>
-               <Range>8500000-8929999</Range>
+               <Name>EGYPT_1__85000_TO_87399_RANGE</Name>
+               <Range>8500000-8739999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>EGYPT__893_TO_894_RANGE</Name>
-               <Range>8930000-8949999</Range>
+               <Name>EGYPT_1__8740_TO_8899_RANGE</Name>
+               <Range>8740000-8899999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>EGYPT_1__890_TO_894_RANGE</Name>
+               <Range>8900000-8949999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>EGYPT__8950_TO_8999_RANGE</Name>
+               <Name>EGYPT_1__8950_TO_8999_RANGE</Name>
                <Range>8950000-8999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>EGYPT__90_TO_98_RANGE</Name>
-               <Range>9000000-9899999</Range>
+               <Name>EGYPT_1__90_TO_95_RANGE</Name>
+               <Range>9000000-9599999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>EGYPT__990_TO_999_RANGE</Name>
-               <Range>9900000-9999999</Range>
+               <Name>EGYPT_1__9600_TO_9699_RANGE</Name>
+               <Range>9600000-9699999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>EGYPT_1__970_TO_999_RANGE</Name>
+               <Range>9700000-9999999</Range>
                <Length>3</Length>
             </Rule>
          </Rules>
@@ -3943,13 +4832,28 @@
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>NIGERIA__30000_TO_77999_RANGE</Name>
-               <Range>3000000-7799999</Range>
+               <Name>NIGERIA__30000_TO_67999_RANGE</Name>
+               <Range>3000000-6799999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>NIGERIA__780_TO_799_RANGE</Name>
-               <Range>7800000-7999999</Range>
+               <Name>NIGERIA__68_TO_68_RANGE</Name>
+               <Range>6800000-6899999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>NIGERIA__690_TO_699_RANGE</Name>
+               <Range>6900000-6999999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>7000000-7649999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>NIGERIA__765_TO_799_RANGE</Name>
+               <Range>7650000-7999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
@@ -3966,45 +4870,45 @@
       </Group>
       <Group>
          <Prefix>978-979</Prefix>
-         <Agency name="Indonesia">INDONESIA_2</Agency>
+         <Agency name="Indonesia">INDONESIA_3</Agency>
          <Rules>
             <Rule>
-               <Name>INDONESIA_2__000_TO_099_RANGE</Name>
+               <Name>INDONESIA_3__000_TO_099_RANGE</Name>
                <Range>0000000-0999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>INDONESIA_2__1000_TO_1499_RANGE</Name>
+               <Name>INDONESIA_3__1000_TO_1499_RANGE</Name>
                <Range>1000000-1499999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>INDONESIA_2__15000_TO_19999_RANGE</Name>
+               <Name>INDONESIA_3__15000_TO_19999_RANGE</Name>
                <Range>1500000-1999999</Range>
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>INDONESIA_2__20_TO_29_RANGE</Name>
+               <Name>INDONESIA_3__20_TO_29_RANGE</Name>
                <Range>2000000-2999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>INDONESIA_2__3000_TO_3999_RANGE</Name>
+               <Name>INDONESIA_3__3000_TO_3999_RANGE</Name>
                <Range>3000000-3999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>INDONESIA_2__400_TO_799_RANGE</Name>
+               <Name>INDONESIA_3__400_TO_799_RANGE</Name>
                <Range>4000000-7999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>INDONESIA_2__8000_TO_9499_RANGE</Name>
+               <Name>INDONESIA_3__8000_TO_9499_RANGE</Name>
                <Range>8000000-9499999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>INDONESIA_2__95000_TO_99999_RANGE</Name>
+               <Name>INDONESIA_3__95000_TO_99999_RANGE</Name>
                <Range>9500000-9999999</Range>
                <Length>5</Length>
             </Rule>
@@ -4066,18 +4970,18 @@
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>SINGAPORE_0__4000_TO_9499_RANGE</Name>
-               <Range>4000000-9499999</Range>
+               <Name>SINGAPORE_0__4000_TO_5999_RANGE</Name>
+               <Range>4000000-5999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>9500000-9899999</Range>
+               <Range>6000000-9199999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>SINGAPORE_0__99_TO_99_RANGE</Name>
-               <Range>9900000-9999999</Range>
+               <Name>SINGAPORE_0__92_TO_99_RANGE</Name>
+               <Range>9200000-9999999</Range>
                <Length>2</Length>
             </Rule>
          </Rules>
@@ -4169,9 +5073,39 @@
          <Agency name="Bangladesh">BANGLADESH</Agency>
          <Rules>
             <Rule>
-               <Name>BANGLADESH__00_TO_39_RANGE</Name>
-               <Range>0000000-3999999</Range>
+               <Name>BANGLADESH__00_TO_21_RANGE</Name>
+               <Range>0000000-2199999</Range>
                <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>BANGLADESH__220_TO_224_RANGE</Name>
+               <Range>2200000-2249999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>BANGLADESH__2250_TO_2599_RANGE</Name>
+               <Range>2250000-2599999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>BANGLADESH__26_TO_28_RANGE</Name>
+               <Range>2600000-2899999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>BANGLADESH__29000_TO_29999_RANGE</Name>
+               <Range>2900000-2999999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>BANGLADESH__30_TO_38_RANGE</Name>
+               <Range>3000000-3899999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>BANGLADESH__3900_TO_3999_RANGE</Name>
+               <Range>3900000-3999999</Range>
+               <Length>4</Length>
             </Rule>
             <Rule>
                <Name>BANGLADESH__400_TO_799_RANGE</Name>
@@ -4389,9 +5323,14 @@
          <Agency name="Portugal">PORTUGAL_1</Agency>
          <Rules>
             <Rule>
-               <Name>PORTUGAL_1__0_TO_1_RANGE</Name>
-               <Range>0000000-1999999</Range>
+               <Name>PORTUGAL_1__0_TO_0_RANGE</Name>
+               <Range>0000000-0999999</Range>
                <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>1000000-1999999</Range>
+               <Length>0</Length>
             </Rule>
             <Rule>
                <Name>PORTUGAL_1__20_TO_34_RANGE</Name>
@@ -4404,8 +5343,18 @@
                <Length>5</Length>
             </Rule>
             <Rule>
-               <Name>PORTUGAL_1__37_TO_52_RANGE</Name>
-               <Range>3700000-5299999</Range>
+               <Name>PORTUGAL_1__37_TO_48_RANGE</Name>
+               <Range>3700000-4899999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>PORTUGAL_1__49000_TO_49999_RANGE</Name>
+               <Range>4900000-4999999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name>PORTUGAL_1__50_TO_52_RANGE</Name>
+               <Range>5000000-5299999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
@@ -4427,6 +5376,201 @@
                <Name>PORTUGAL_1__95000_TO_99999_RANGE</Name>
                <Range>9500000-9999999</Range>
                <Length>5</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-9906</Prefix>
+         <Agency name="Tajikistan">TAJIKISTAN_0</Agency>
+         <Rules>
+            <Rule>
+               <Name/>
+               <Range>0000000-1999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>TAJIKISTAN_0__20_TO_20_RANGE</Name>
+               <Range>2000000-2099999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>2100000-6999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>TAJIKISTAN_0__700_TO_724_RANGE</Name>
+               <Range>7000000-7249999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>7250000-9899999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>TAJIKISTAN_0__9900_TO_9999_RANGE</Name>
+               <Range>9900000-9999999</Range>
+               <Length>4</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-9907</Prefix>
+         <Agency name="Ecuador">ECUADOR_0</Agency>
+         <Rules>
+            <Rule>
+               <Name>ECUADOR_0__0_TO_0_RANGE</Name>
+               <Range>0000000-0999999</Range>
+               <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>1000000-4999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ECUADOR_0__50_TO_64_RANGE</Name>
+               <Range>5000000-6499999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>6500000-7999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ECUADOR_0__800_TO_874_RANGE</Name>
+               <Range>8000000-8749999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>8750000-9499999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ECUADOR_0__9500_TO_9999_RANGE</Name>
+               <Range>9500000-9999999</Range>
+               <Length>4</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-9908</Prefix>
+         <Agency name="Estonia">ESTONIA_0</Agency>
+         <Rules>
+            <Rule>
+               <Name>ESTONIA_0__0_TO_1_RANGE</Name>
+               <Range>0000000-1999999</Range>
+               <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>2000000-4999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ESTONIA_0__50_TO_69_RANGE</Name>
+               <Range>5000000-6999999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>7000000-8249999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ESTONIA_0__825_TO_899_RANGE</Name>
+               <Range>8250000-8999999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>9000000-9699999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ESTONIA_0__9700_TO_9999_RANGE</Name>
+               <Range>9700000-9999999</Range>
+               <Length>4</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-9909</Prefix>
+         <Agency name="Tunisia">TUNISIA_0</Agency>
+         <Rules>
+            <Rule>
+               <Name>TUNISIA_0__00_TO_19_RANGE</Name>
+               <Range>0000000-1999999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>2000000-7499999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>TUNISIA_0__750_TO_849_RANGE</Name>
+               <Range>7500000-8499999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>8500000-9799999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>TUNISIA_0__9800_TO_9999_RANGE</Name>
+               <Range>9800000-9999999</Range>
+               <Length>4</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-9910</Prefix>
+         <Agency name="Uzbekistan">UZBEKISTAN_0</Agency>
+         <Rules>
+            <Rule>
+               <Name/>
+               <Range>0000000-0099999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>UZBEKISTAN_0__01_TO_15_RANGE</Name>
+               <Range>0100000-1599999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>1600000-2249999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>UZBEKISTAN_0__225_TO_299_RANGE</Name>
+               <Range>2250000-2999999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>3000000-4999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>UZBEKISTAN_0__5000_TO_5499_RANGE</Name>
+               <Range>5000000-5499999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>UZBEKISTAN_0__550_TO_799_RANGE</Name>
+               <Range>5500000-7999999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>UZBEKISTAN_0__8000_TO_9999_RANGE</Name>
+               <Range>8000000-9999999</Range>
+               <Length>4</Length>
             </Rule>
          </Rules>
       </Group>
@@ -4456,8 +5600,13 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>7500000-9999999</Range>
+               <Range>7500000-9499999</Range>
                <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>MONTENEGRO_0__9500_TO_9999_RANGE</Name>
+               <Range>9500000-9999999</Range>
+               <Length>4</Length>
             </Rule>
          </Rules>
       </Group>
@@ -4502,28 +5651,28 @@
          <Agency name="Uganda">UGANDA_0</Agency>
          <Rules>
             <Rule>
-               <Name>UGANDA_0__00_TO_07_RANGE</Name>
-               <Range>0000000-0799999</Range>
+               <Name>UGANDA_0__00_TO_09_RANGE</Name>
+               <Range>0000000-0999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>0800000-5999999</Range>
+               <Range>1000000-5999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>UGANDA_0__600_TO_699_RANGE</Name>
-               <Range>6000000-6999999</Range>
+               <Name>UGANDA_0__600_TO_709_RANGE</Name>
+               <Range>6000000-7099999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>7000000-9549999</Range>
+               <Range>7100000-9499999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>UGANDA_0__9550_TO_9999_RANGE</Name>
-               <Range>9550000-9999999</Range>
+               <Name>UGANDA_0__9500_TO_9999_RANGE</Name>
+               <Range>9500000-9999999</Range>
                <Length>4</Length>
             </Rule>
          </Rules>
@@ -4534,32 +5683,32 @@
          <Rules>
             <Rule>
                <Name/>
-               <Range>0000000-3999999</Range>
+               <Range>0000000-2699999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>KENYA_0__40_TO_52_RANGE</Name>
-               <Range>4000000-5299999</Range>
+               <Name>KENYA_0__27_TO_55_RANGE</Name>
+               <Range>2700000-5599999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>5300000-6999999</Range>
+               <Range>5600000-6999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>KENYA_0__700_TO_774_RANGE</Name>
-               <Range>7000000-7749999</Range>
+               <Name>KENYA_0__700_TO_799_RANGE</Name>
+               <Range>7000000-7999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>7750000-9599999</Range>
+               <Range>8000000-9349999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>KENYA_0__9600_TO_9999_RANGE</Name>
-               <Range>9600000-9999999</Range>
+               <Name>KENYA_0__9350_TO_9999_RANGE</Name>
+               <Range>9350000-9999999</Range>
                <Length>4</Length>
             </Rule>
          </Rules>
@@ -4602,35 +5751,45 @@
       </Group>
       <Group>
          <Prefix>978-9916</Prefix>
-         <Agency name="Estonia">ESTONIA_0</Agency>
+         <Agency name="Estonia">ESTONIA_1</Agency>
          <Rules>
             <Rule>
-               <Name>ESTONIA_0__0_TO_0_RANGE</Name>
+               <Name>ESTONIA_1__0_TO_0_RANGE</Name>
                <Range>0000000-0999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_0__10_TO_39_RANGE</Name>
+               <Name>ESTONIA_1__10_TO_39_RANGE</Name>
                <Range>1000000-3999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_0__4_TO_5_RANGE</Name>
+               <Name>ESTONIA_1__4_TO_5_RANGE</Name>
                <Range>4000000-5999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_0__600_TO_799_RANGE</Name>
-               <Range>6000000-7999999</Range>
+               <Name>ESTONIA_1__600_TO_789_RANGE</Name>
+               <Range>6000000-7899999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>8000000-9499999</Range>
-               <Length>0</Length>
+               <Name>ESTONIA_1__79_TO_91_RANGE</Name>
+               <Range>7900000-9199999</Range>
+               <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_0__9500_TO_9999_RANGE</Name>
+               <Name>ESTONIA_1__9200_TO_9399_RANGE</Name>
+               <Range>9200000-9399999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>ESTONIA_1__94_TO_94_RANGE</Name>
+               <Range>9400000-9499999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>ESTONIA_1__9500_TO_9999_RANGE</Name>
                <Range>9500000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -4667,12 +5826,12 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>7000000-9799999</Range>
+               <Range>7000000-9624999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>BOLIVIA_0__9800_TO_9999_RANGE</Name>
-               <Range>9800000-9999999</Range>
+               <Name>BOLIVIA_0__9625_TO_9999_RANGE</Name>
+               <Range>9625000-9999999</Range>
                <Length>4</Length>
             </Rule>
          </Rules>
@@ -4765,32 +5924,32 @@
          <Rules>
             <Rule>
                <Name/>
-               <Range>0000000-2999999</Range>
+               <Range>0000000-1999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>MOROCCO_0__30_TO_41_RANGE</Name>
-               <Range>3000000-4199999</Range>
+               <Name>MOROCCO_0__200_TO_229_RANGE</Name>
+               <Range>2000000-2299999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>MOROCCO_0__23_TO_42_RANGE</Name>
+               <Range>2300000-4299999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>4200000-4999999</Range>
-               <Length>0</Length>
-            </Rule>
-            <Rule>
-               <Name>MOROCCO_0__500_TO_799_RANGE</Name>
-               <Range>5000000-7999999</Range>
+               <Name>MOROCCO_0__430_TO_799_RANGE</Name>
+               <Range>4300000-7999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>8000000-8749999</Range>
+               <Range>8000000-8549999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>MOROCCO_0__8750_TO_9999_RANGE</Name>
-               <Range>8750000-9999999</Range>
+               <Name>MOROCCO_0__8550_TO_9999_RANGE</Name>
+               <Range>8550000-9999999</Range>
                <Length>4</Length>
             </Rule>
          </Rules>
@@ -4861,13 +6020,8 @@
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>8000000-8499999</Range>
-               <Length>0</Length>
-            </Rule>
-            <Rule>
-               <Name>IRAQ__8500_TO_9999_RANGE</Name>
-               <Range>8500000-9999999</Range>
+               <Name>IRAQ__8000_TO_9999_RANGE</Name>
+               <Range>8000000-9999999</Range>
                <Length>4</Length>
             </Rule>
          </Rules>
@@ -4882,14 +6036,9 @@
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>JORDAN_0__10_TO_59_RANGE</Name>
-               <Range>1000000-5999999</Range>
+               <Name>JORDAN_0__10_TO_69_RANGE</Name>
+               <Range>1000000-6999999</Range>
                <Length>2</Length>
-            </Rule>
-            <Rule>
-               <Name/>
-               <Range>6000000-6999999</Range>
-               <Length>0</Length>
             </Rule>
             <Rule>
                <Name>JORDAN_0__700_TO_899_RANGE</Name>
@@ -4914,12 +6063,12 @@
          <Rules>
             <Rule>
                <Name/>
-               <Range>0000000-2999999</Range>
+               <Range>0000000-2799999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>CAMBODIA_0__30_TO_39_RANGE</Name>
-               <Range>3000000-3999999</Range>
+               <Name>CAMBODIA_0__28_TO_39_RANGE</Name>
+               <Range>2800000-3999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
@@ -4928,18 +6077,18 @@
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>CAMBODIA_0__500_TO_649_RANGE</Name>
-               <Range>5000000-6499999</Range>
+               <Name>CAMBODIA_0__500_TO_659_RANGE</Name>
+               <Range>5000000-6599999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>6500000-8999999</Range>
+               <Range>6600000-8949999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>CAMBODIA_0__9000_TO_9999_RANGE</Name>
-               <Range>9000000-9999999</Range>
+               <Name>CAMBODIA_0__8950_TO_9999_RANGE</Name>
+               <Range>8950000-9999999</Range>
                <Length>4</Length>
             </Rule>
          </Rules>
@@ -5162,9 +6311,14 @@
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>SYRIA__400_TO_899_RANGE</Name>
-               <Range>4000000-8999999</Range>
+               <Name>SYRIA__400_TO_869_RANGE</Name>
+               <Range>4000000-8699999</Range>
                <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>SYRIA__87_TO_89_RANGE</Name>
+               <Range>8700000-8999999</Range>
+               <Length>2</Length>
             </Rule>
             <Rule>
                <Name>SYRIA__9000_TO_9999_RANGE</Name>
@@ -5279,30 +6433,30 @@
       </Group>
       <Group>
          <Prefix>978-9938</Prefix>
-         <Agency name="Tunisia">TUNISIA_0</Agency>
+         <Agency name="Tunisia">TUNISIA_1</Agency>
          <Rules>
             <Rule>
-               <Name>TUNISIA_0__00_TO_79_RANGE</Name>
+               <Name>TUNISIA_1__00_TO_79_RANGE</Name>
                <Range>0000000-7999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_0__800_TO_949_RANGE</Name>
+               <Name>TUNISIA_1__800_TO_949_RANGE</Name>
                <Range>8000000-9499999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_0__9500_TO_9749_RANGE</Name>
+               <Name>TUNISIA_1__9500_TO_9749_RANGE</Name>
                <Range>9500000-9749999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_0__975_TO_990_RANGE</Name>
+               <Name>TUNISIA_1__975_TO_990_RANGE</Name>
                <Range>9750000-9909999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_0__9910_TO_9999_RANGE</Name>
+               <Name>TUNISIA_1__9910_TO_9999_RANGE</Name>
                <Range>9910000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -5313,9 +6467,19 @@
          <Agency name="Armenia">ARMENIA_0</Agency>
          <Rules>
             <Rule>
-               <Name>ARMENIA_0__0_TO_4_RANGE</Name>
-               <Range>0000000-4999999</Range>
+               <Name>ARMENIA_0__0_TO_3_RANGE</Name>
+               <Range>0000000-3999999</Range>
                <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name>ARMENIA_0__40_TO_47_RANGE</Name>
+               <Range>4000000-4799999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>ARMENIA_0__480_TO_499_RANGE</Name>
+               <Range>4800000-4999999</Range>
+               <Length>3</Length>
             </Rule>
             <Rule>
                <Name>ARMENIA_0__50_TO_79_RANGE</Name>
@@ -5390,9 +6554,14 @@
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>GEORGIA_0__400_TO_799_RANGE</Name>
-               <Range>4000000-7999999</Range>
+               <Name>GEORGIA_0__400_TO_789_RANGE</Name>
+               <Range>4000000-7899999</Range>
                <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>GEORGIA_0__7900_TO_7999_RANGE</Name>
+               <Range>7900000-7999999</Range>
+               <Length>4</Length>
             </Rule>
             <Rule>
                <Name>GEORGIA_0__8_TO_8_RANGE</Name>
@@ -5408,40 +6577,40 @@
       </Group>
       <Group>
          <Prefix>978-9942</Prefix>
-         <Agency name="Ecuador">ECUADOR_0</Agency>
+         <Agency name="Ecuador">ECUADOR_1</Agency>
          <Rules>
             <Rule>
-               <Name>ECUADOR_0__00_TO_59_RANGE</Name>
-               <Range>0000000-5999999</Range>
+               <Name>ECUADOR_1__00_TO_55_RANGE</Name>
+               <Range>0000000-5599999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_0__600_TO_699_RANGE</Name>
-               <Range>6000000-6999999</Range>
+               <Name>ECUADOR_1__560_TO_699_RANGE</Name>
+               <Range>5600000-6999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_0__7000_TO_7499_RANGE</Name>
+               <Name>ECUADOR_1__7000_TO_7499_RANGE</Name>
                <Range>7000000-7499999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_0__750_TO_849_RANGE</Name>
+               <Name>ECUADOR_1__750_TO_849_RANGE</Name>
                <Range>7500000-8499999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_0__8500_TO_8999_RANGE</Name>
+               <Name>ECUADOR_1__8500_TO_8999_RANGE</Name>
                <Range>8500000-8999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_0__900_TO_984_RANGE</Name>
+               <Name>ECUADOR_1__900_TO_984_RANGE</Name>
                <Range>9000000-9849999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_0__9850_TO_9999_RANGE</Name>
+               <Name>ECUADOR_1__9850_TO_9999_RANGE</Name>
                <Range>9850000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -5449,25 +6618,25 @@
       </Group>
       <Group>
          <Prefix>978-9943</Prefix>
-         <Agency name="Uzbekistan">UZBEKISTAN</Agency>
+         <Agency name="Uzbekistan">UZBEKISTAN_1</Agency>
          <Rules>
             <Rule>
-               <Name>UZBEKISTAN__00_TO_29_RANGE</Name>
+               <Name>UZBEKISTAN_1__00_TO_29_RANGE</Name>
                <Range>0000000-2999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>UZBEKISTAN__300_TO_399_RANGE</Name>
+               <Name>UZBEKISTAN_1__300_TO_399_RANGE</Name>
                <Range>3000000-3999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>UZBEKISTAN__4000_TO_9749_RANGE</Name>
+               <Name>UZBEKISTAN_1__4000_TO_9749_RANGE</Name>
                <Range>4000000-9749999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>UZBEKISTAN__975_TO_999_RANGE</Name>
+               <Name>UZBEKISTAN_1__975_TO_999_RANGE</Name>
                <Range>9750000-9999999</Range>
                <Length>3</Length>
             </Rule>
@@ -5475,40 +6644,40 @@
       </Group>
       <Group>
          <Prefix>978-9944</Prefix>
-         <Agency name="Turkey">TURKEY_3</Agency>
+         <Agency name="Türkiye">TÜRKIYE_3</Agency>
          <Rules>
             <Rule>
-               <Name>TURKEY_3__0000_TO_0999_RANGE</Name>
+               <Name>TÜRKIYE_3__0000_TO_0999_RANGE</Name>
                <Range>0000000-0999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_3__100_TO_499_RANGE</Name>
+               <Name>TÜRKIYE_3__100_TO_499_RANGE</Name>
                <Range>1000000-4999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_3__5000_TO_5999_RANGE</Name>
+               <Name>TÜRKIYE_3__5000_TO_5999_RANGE</Name>
                <Range>5000000-5999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_3__60_TO_69_RANGE</Name>
+               <Name>TÜRKIYE_3__60_TO_69_RANGE</Name>
                <Range>6000000-6999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_3__700_TO_799_RANGE</Name>
+               <Name>TÜRKIYE_3__700_TO_799_RANGE</Name>
                <Range>7000000-7999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_3__80_TO_89_RANGE</Name>
+               <Name>TÜRKIYE_3__80_TO_89_RANGE</Name>
                <Range>8000000-8999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TURKEY_3__900_TO_999_RANGE</Name>
+               <Name>TÜRKIYE_3__900_TO_999_RANGE</Name>
                <Range>9000000-9999999</Range>
                <Length>3</Length>
             </Rule>
@@ -5635,45 +6804,45 @@
       </Group>
       <Group>
          <Prefix>978-9949</Prefix>
-         <Agency name="Estonia">ESTONIA_1</Agency>
+         <Agency name="Estonia">ESTONIA_2</Agency>
          <Rules>
             <Rule>
-               <Name>ESTONIA_1__00_TO_08_RANGE</Name>
+               <Name>ESTONIA_2__00_TO_08_RANGE</Name>
                <Range>0000000-0899999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_1__090_TO_099_RANGE</Name>
+               <Name>ESTONIA_2__090_TO_099_RANGE</Name>
                <Range>0900000-0999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_1__10_TO_39_RANGE</Name>
+               <Name>ESTONIA_2__10_TO_39_RANGE</Name>
                <Range>1000000-3999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_1__400_TO_699_RANGE</Name>
+               <Name>ESTONIA_2__400_TO_699_RANGE</Name>
                <Range>4000000-6999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_1__70_TO_71_RANGE</Name>
+               <Name>ESTONIA_2__70_TO_71_RANGE</Name>
                <Range>7000000-7199999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_1__7200_TO_7499_RANGE</Name>
+               <Name>ESTONIA_2__7200_TO_7499_RANGE</Name>
                <Range>7200000-7499999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_1__75_TO_89_RANGE</Name>
+               <Name>ESTONIA_2__75_TO_89_RANGE</Name>
                <Range>7500000-8999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_1__9000_TO_9999_RANGE</Name>
+               <Name>ESTONIA_2__9000_TO_9999_RANGE</Name>
                <Range>9000000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -5731,13 +6900,18 @@
          <Agency name="Azerbaijan">AZERBAIJAN</Agency>
          <Rules>
             <Rule>
-               <Name>AZERBAIJAN__0_TO_1_RANGE</Name>
-               <Range>0000000-1999999</Range>
+               <Name>AZERBAIJAN__0_TO_0_RANGE</Name>
+               <Range>0000000-0999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>AZERBAIJAN__20_TO_39_RANGE</Name>
-               <Range>2000000-3999999</Range>
+               <Name/>
+               <Range>1000000-1499999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>AZERBAIJAN__15_TO_39_RANGE</Name>
+               <Range>1500000-3999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
@@ -6278,28 +7452,28 @@
          <Agency name="Algeria">ALGERIA_3</Agency>
          <Rules>
             <Rule>
-               <Name>ALGERIA_3__00_TO_06_RANGE</Name>
-               <Range>0000000-0699999</Range>
+               <Name>ALGERIA_3__00_TO_12_RANGE</Name>
+               <Range>0000000-1299999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>0700000-4999999</Range>
+               <Range>1300000-4999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>ALGERIA_3__500_TO_649_RANGE</Name>
-               <Range>5000000-6499999</Range>
+               <Name>ALGERIA_3__500_TO_674_RANGE</Name>
+               <Range>5000000-6749999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>6500000-9699999</Range>
+               <Range>6750000-9649999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>ALGERIA_3__9700_TO_9999_RANGE</Name>
-               <Range>9700000-9999999</Range>
+               <Name>ALGERIA_3__9650_TO_9999_RANGE</Name>
+               <Range>9650000-9999999</Range>
                <Length>4</Length>
             </Rule>
          </Rules>
@@ -6394,35 +7568,35 @@
       </Group>
       <Group>
          <Prefix>978-9973</Prefix>
-         <Agency name="Tunisia">TUNISIA_1</Agency>
+         <Agency name="Tunisia">TUNISIA_2</Agency>
          <Rules>
             <Rule>
-               <Name>TUNISIA_1__00_TO_05_RANGE</Name>
+               <Name>TUNISIA_2__00_TO_05_RANGE</Name>
                <Range>0000000-0599999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_1__060_TO_089_RANGE</Name>
+               <Name>TUNISIA_2__060_TO_089_RANGE</Name>
                <Range>0600000-0899999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_1__0900_TO_0999_RANGE</Name>
+               <Name>TUNISIA_2__0900_TO_0999_RANGE</Name>
                <Range>0900000-0999999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_1__10_TO_69_RANGE</Name>
+               <Name>TUNISIA_2__10_TO_69_RANGE</Name>
                <Range>1000000-6999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_1__700_TO_969_RANGE</Name>
+               <Name>TUNISIA_2__700_TO_969_RANGE</Name>
                <Range>7000000-9699999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TUNISIA_1__9700_TO_9999_RANGE</Name>
+               <Name>TUNISIA_2__9700_TO_9999_RANGE</Name>
                <Range>9700000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -6569,30 +7743,30 @@
       </Group>
       <Group>
          <Prefix>978-9978</Prefix>
-         <Agency name="Ecuador">ECUADOR_1</Agency>
+         <Agency name="Ecuador">ECUADOR_2</Agency>
          <Rules>
             <Rule>
-               <Name>ECUADOR_1__00_TO_29_RANGE</Name>
+               <Name>ECUADOR_2__00_TO_29_RANGE</Name>
                <Range>0000000-2999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_1__300_TO_399_RANGE</Name>
+               <Name>ECUADOR_2__300_TO_399_RANGE</Name>
                <Range>3000000-3999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_1__40_TO_94_RANGE</Name>
+               <Name>ECUADOR_2__40_TO_94_RANGE</Name>
                <Range>4000000-9499999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_1__950_TO_989_RANGE</Name>
+               <Name>ECUADOR_2__950_TO_989_RANGE</Name>
                <Range>9500000-9899999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ECUADOR_1__9900_TO_9999_RANGE</Name>
+               <Name>ECUADOR_2__9900_TO_9999_RANGE</Name>
                <Range>9900000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -6766,25 +7940,25 @@
       </Group>
       <Group>
          <Prefix>978-9985</Prefix>
-         <Agency name="Estonia">ESTONIA_2</Agency>
+         <Agency name="Estonia">ESTONIA_3</Agency>
          <Rules>
             <Rule>
-               <Name>ESTONIA_2__0_TO_4_RANGE</Name>
+               <Name>ESTONIA_3__0_TO_4_RANGE</Name>
                <Range>0000000-4999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_2__50_TO_79_RANGE</Name>
+               <Name>ESTONIA_3__50_TO_79_RANGE</Name>
                <Range>5000000-7999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_2__800_TO_899_RANGE</Name>
+               <Name>ESTONIA_3__800_TO_899_RANGE</Name>
                <Range>8000000-8999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>ESTONIA_2__9000_TO_9999_RANGE</Name>
+               <Name>ESTONIA_3__9000_TO_9999_RANGE</Name>
                <Range>9000000-9999999</Range>
                <Length>4</Length>
             </Rule>
@@ -7590,20 +8764,20 @@
       </Group>
       <Group>
          <Prefix>978-99931</Prefix>
-         <Agency name="Seychelles">SEYCHELLES</Agency>
+         <Agency name="Seychelles">SEYCHELLES_0</Agency>
          <Rules>
             <Rule>
-               <Name>SEYCHELLES__0_TO_4_RANGE</Name>
+               <Name>SEYCHELLES_0__0_TO_4_RANGE</Name>
                <Range>0000000-4999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>SEYCHELLES__50_TO_79_RANGE</Name>
+               <Name>SEYCHELLES_0__50_TO_79_RANGE</Name>
                <Range>5000000-7999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>SEYCHELLES__800_TO_999_RANGE</Name>
+               <Name>SEYCHELLES_0__800_TO_999_RANGE</Name>
                <Range>8000000-9999999</Range>
                <Length>3</Length>
             </Rule>
@@ -7927,9 +9101,14 @@
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>NAMIBIA_1__900_TO_999_RANGE</Name>
-               <Range>9000000-9999999</Range>
+               <Name>NAMIBIA_1__900_TO_979_RANGE</Name>
+               <Range>9000000-9799999</Range>
                <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>NAMIBIA_1__98_TO_99_RANGE</Name>
+               <Range>9800000-9999999</Range>
+               <Length>2</Length>
             </Rule>
          </Rules>
       </Group>
@@ -7956,20 +9135,20 @@
       </Group>
       <Group>
          <Prefix>978-99947</Prefix>
-         <Agency name="Tajikistan">TAJIKISTAN_0</Agency>
+         <Agency name="Tajikistan">TAJIKISTAN_1</Agency>
          <Rules>
             <Rule>
-               <Name>TAJIKISTAN_0__0_TO_2_RANGE</Name>
+               <Name>TAJIKISTAN_1__0_TO_2_RANGE</Name>
                <Range>0000000-2999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>TAJIKISTAN_0__30_TO_69_RANGE</Name>
+               <Name>TAJIKISTAN_1__30_TO_69_RANGE</Name>
                <Range>3000000-6999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TAJIKISTAN_0__700_TO_999_RANGE</Name>
+               <Name>TAJIKISTAN_1__700_TO_999_RANGE</Name>
                <Range>7000000-9999999</Range>
                <Length>3</Length>
             </Rule>
@@ -8624,25 +9803,25 @@
       </Group>
       <Group>
          <Prefix>978-99975</Prefix>
-         <Agency name="Tajikistan">TAJIKISTAN_1</Agency>
+         <Agency name="Tajikistan">TAJIKISTAN_2</Agency>
          <Rules>
             <Rule>
-               <Name>TAJIKISTAN_1__0_TO_2_RANGE</Name>
+               <Name>TAJIKISTAN_2__0_TO_2_RANGE</Name>
                <Range>0000000-2999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name>TAJIKISTAN_1__300_TO_399_RANGE</Name>
+               <Name>TAJIKISTAN_2__300_TO_399_RANGE</Name>
                <Range>3000000-3999999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TAJIKISTAN_1__40_TO_79_RANGE</Name>
+               <Name>TAJIKISTAN_2__40_TO_79_RANGE</Name>
                <Range>4000000-7999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>TAJIKISTAN_1__800_TO_999_RANGE</Name>
+               <Name>TAJIKISTAN_2__800_TO_999_RANGE</Name>
                <Range>8000000-9999999</Range>
                <Length>3</Length>
             </Rule>
@@ -8653,9 +9832,14 @@
          <Agency name="Srpska, Republic of">SRPSKA_REPUBLIC_OF_2</Agency>
          <Rules>
             <Rule>
-               <Name>SRPSKA_REPUBLIC_OF_2__0_TO_0_RANGE</Name>
-               <Range>0000000-0999999</Range>
-               <Length>1</Length>
+               <Name>SRPSKA_REPUBLIC_OF_2__00_TO_03_RANGE</Name>
+               <Range>0000000-0399999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>SRPSKA_REPUBLIC_OF_2__040_TO_099_RANGE</Name>
+               <Range>0400000-0999999</Range>
+               <Length>3</Length>
             </Rule>
             <Rule>
                <Name>SRPSKA_REPUBLIC_OF_2__10_TO_15_RANGE</Name>
@@ -8673,18 +9857,13 @@
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>SRPSKA_REPUBLIC_OF_2__600_TO_799_RANGE</Name>
-               <Range>6000000-7999999</Range>
+               <Name>SRPSKA_REPUBLIC_OF_2__600_TO_819_RANGE</Name>
+               <Range>6000000-8199999</Range>
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>8000000-8499999</Range>
-               <Length>0</Length>
-            </Rule>
-            <Rule>
-               <Name>SRPSKA_REPUBLIC_OF_2__85_TO_89_RANGE</Name>
-               <Range>8500000-8999999</Range>
+               <Name>SRPSKA_REPUBLIC_OF_2__82_TO_89_RANGE</Name>
+               <Range>8200000-8999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
@@ -8720,12 +9899,22 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>8000000-9949999</Range>
+               <Range>8000000-8999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>RWANDA__995_TO_999_RANGE</Name>
-               <Range>9950000-9999999</Range>
+               <Name>RWANDA__900_TO_924_RANGE</Name>
+               <Range>9000000-9249999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>9250000-9749999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>RWANDA__975_TO_999_RANGE</Name>
+               <Range>9750000-9999999</Range>
                <Length>3</Length>
             </Rule>
          </Rules>
@@ -8787,18 +9976,18 @@
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>BHUTAN_1__30_TO_59_RANGE</Name>
-               <Range>3000000-5999999</Range>
+               <Name>BHUTAN_1__30_TO_64_RANGE</Name>
+               <Range>3000000-6499999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>6000000-7499999</Range>
+               <Range>6500000-6999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>BHUTAN_1__750_TO_999_RANGE</Name>
-               <Range>7500000-9999999</Range>
+               <Name>BHUTAN_1__700_TO_999_RANGE</Name>
+               <Range>7000000-9999999</Range>
                <Length>3</Length>
             </Rule>
          </Rules>
@@ -8808,18 +9997,33 @@
          <Agency name="Macau">MACAU_2</Agency>
          <Rules>
             <Rule>
-               <Name>MACAU_2__0_TO_1_RANGE</Name>
-               <Range>0000000-1999999</Range>
+               <Name>MACAU_2__0_TO_0_RANGE</Name>
+               <Range>0000000-0999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>2000000-2699999</Range>
-               <Length>0</Length>
+               <Name>MACAU_2__10_TO_10_RANGE</Name>
+               <Range>1000000-1099999</Range>
+               <Length>2</Length>
             </Rule>
             <Rule>
-               <Name>MACAU_2__27_TO_74_RANGE</Name>
-               <Range>2700000-7499999</Range>
+               <Name>MACAU_2__110_TO_149_RANGE</Name>
+               <Range>1100000-1499999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>MACAU_2__15_TO_19_RANGE</Name>
+               <Range>1500000-1999999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>MACAU_2__200_TO_219_RANGE</Name>
+               <Range>2000000-2199999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name>MACAU_2__22_TO_74_RANGE</Name>
+               <Range>2200000-7499999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
@@ -8834,28 +10038,28 @@
          <Agency name="Benin">BENIN_1</Agency>
          <Rules>
             <Rule>
-               <Name>BENIN_1__0_TO_1_RANGE</Name>
-               <Range>0000000-1999999</Range>
+               <Name>BENIN_1__0_TO_3_RANGE</Name>
+               <Range>0000000-3999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>2000000-4999999</Range>
+               <Range>4000000-4999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>BENIN_1__50_TO_68_RANGE</Name>
-               <Range>5000000-6899999</Range>
+               <Name>BENIN_1__50_TO_76_RANGE</Name>
+               <Range>5000000-7699999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>6900000-8999999</Range>
+               <Range>7700000-8649999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>BENIN_1__900_TO_999_RANGE</Name>
-               <Range>9000000-9999999</Range>
+               <Name>BENIN_1__865_TO_999_RANGE</Name>
+               <Range>8650000-9999999</Range>
                <Length>3</Length>
             </Rule>
          </Rules>
@@ -8871,22 +10075,22 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>1000000-4999999</Range>
+               <Range>1000000-3499999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>EL_SALVADOR_2__50_TO_69_RANGE</Name>
-               <Range>5000000-6999999</Range>
+               <Name>EL_SALVADOR_2__35_TO_69_RANGE</Name>
+               <Range>3500000-6999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>7000000-9499999</Range>
+               <Range>7000000-8499999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>EL_SALVADOR_2__950_TO_999_RANGE</Name>
-               <Range>9500000-9999999</Range>
+               <Name>EL_SALVADOR_2__850_TO_999_RANGE</Name>
+               <Range>8500000-9999999</Range>
                <Length>3</Length>
             </Rule>
          </Rules>
@@ -8924,31 +10128,26 @@
       </Group>
       <Group>
          <Prefix>978-99985</Prefix>
-         <Agency name="Tajikistan">TAJIKISTAN_2</Agency>
+         <Agency name="Tajikistan">TAJIKISTAN_3</Agency>
          <Rules>
             <Rule>
-               <Name>TAJIKISTAN_2__0_TO_1_RANGE</Name>
+               <Name>TAJIKISTAN_3__0_TO_1_RANGE</Name>
                <Range>0000000-1999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>2000000-3499999</Range>
-               <Length>0</Length>
+               <Name>TAJIKISTAN_3__200_TO_229_RANGE</Name>
+               <Range>2000000-2299999</Range>
+               <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>TAJIKISTAN_2__35_TO_79_RANGE</Name>
-               <Range>3500000-7999999</Range>
+               <Name>TAJIKISTAN_3__23_TO_79_RANGE</Name>
+               <Range>2300000-7999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>8000000-8499999</Range>
-               <Length>0</Length>
-            </Rule>
-            <Rule>
-               <Name>TAJIKISTAN_2__850_TO_999_RANGE</Name>
-               <Range>8500000-9999999</Range>
+               <Name>TAJIKISTAN_3__800_TO_999_RANGE</Name>
+               <Range>8000000-9999999</Range>
                <Length>3</Length>
             </Rule>
          </Rules>
@@ -8990,12 +10189,12 @@
          <Rules>
             <Rule>
                <Name/>
-               <Range>0000000-6999999</Range>
+               <Range>0000000-5499999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>LUXEMBOURG_1__700_TO_999_RANGE</Name>
-               <Range>7000000-9999999</Range>
+               <Name>LUXEMBOURG_1__550_TO_999_RANGE</Name>
+               <Range>5500000-9999999</Range>
                <Length>3</Length>
             </Rule>
          </Rules>
@@ -9010,8 +10209,13 @@
                <Length>1</Length>
             </Rule>
             <Rule>
+               <Name>SUDAN_1__10_TO_10_RANGE</Name>
+               <Range>1000000-1099999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
                <Name/>
-               <Range>1000000-4999999</Range>
+               <Range>1100000-4999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
@@ -9041,23 +10245,23 @@
          <Agency name="Paraguay">PARAGUAY_3</Agency>
          <Rules>
             <Rule>
-               <Name>PARAGUAY_3__0_TO_0_RANGE</Name>
-               <Range>0000000-0999999</Range>
+               <Name>PARAGUAY_3__0_TO_1_RANGE</Name>
+               <Range>0000000-1999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>1000000-4999999</Range>
+               <Range>2000000-4999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>PARAGUAY_3__50_TO_64_RANGE</Name>
-               <Range>5000000-6499999</Range>
+               <Name>PARAGUAY_3__50_TO_79_RANGE</Name>
+               <Range>5000000-7999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>6500000-8999999</Range>
+               <Range>8000000-8999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
@@ -9072,7 +10276,38 @@
          <Agency name="Ethiopia">ETHIOPIA_1</Agency>
          <Rules>
             <Rule>
-               <Name>ETHIOPIA_1__0_TO_0_RANGE</Name>
+               <Name>ETHIOPIA_1__0_TO_1_RANGE</Name>
+               <Range>0000000-1999999</Range>
+               <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>2000000-4499999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ETHIOPIA_1__45_TO_57_RANGE</Name>
+               <Range>4500000-5799999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>5800000-9299999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ETHIOPIA_1__930_TO_999_RANGE</Name>
+               <Range>9300000-9999999</Range>
+               <Length>3</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-99991</Prefix>
+         <Agency name="Burkina Faso">BURKINA_FASO</Agency>
+         <Rules>
+            <Rule>
+               <Name>BURKINA_FASO__0_TO_0_RANGE</Name>
                <Range>0000000-0999999</Range>
                <Length>1</Length>
             </Rule>
@@ -9082,18 +10317,18 @@
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>ETHIOPIA_1__50_TO_54_RANGE</Name>
-               <Range>5000000-5499999</Range>
+               <Name>BURKINA_FASO__50_TO_60_RANGE</Name>
+               <Range>5000000-6099999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>5500000-9749999</Range>
+               <Range>6100000-9599999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>ETHIOPIA_1__975_TO_999_RANGE</Name>
-               <Range>9750000-9999999</Range>
+               <Name>BURKINA_FASO__960_TO_999_RANGE</Name>
+               <Range>9600000-9999999</Range>
                <Length>3</Length>
             </Rule>
          </Rules>
@@ -9103,29 +10338,200 @@
          <Agency name="Oman">OMAN_1</Agency>
          <Rules>
             <Rule>
-               <Name>OMAN_1__0_TO_1_RANGE</Name>
+               <Name>OMAN_1__0_TO_2_RANGE</Name>
+               <Range>0000000-2999999</Range>
+               <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>3000000-4999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>OMAN_1__50_TO_69_RANGE</Name>
+               <Range>5000000-6999999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>7000000-8999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>OMAN_1__900_TO_999_RANGE</Name>
+               <Range>9000000-9999999</Range>
+               <Length>3</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-99993</Prefix>
+         <Agency name="Mauritius">MAURITIUS_4</Agency>
+         <Rules>
+            <Rule>
+               <Name>MAURITIUS_4__0_TO_3_RANGE</Name>
+               <Range>0000000-3999999</Range>
+               <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>4000000-4999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>MAURITIUS_4__50_TO_54_RANGE</Name>
+               <Range>5000000-5499999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>5500000-9799999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>MAURITIUS_4__980_TO_999_RANGE</Name>
+               <Range>9800000-9999999</Range>
+               <Length>3</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-99994</Prefix>
+         <Agency name="Haiti">HAITI_2</Agency>
+         <Rules>
+            <Rule>
+               <Name>HAITI_2__0_TO_0_RANGE</Name>
+               <Range>0000000-0999999</Range>
+               <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>1000000-4999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>HAITI_2__50_TO_56_RANGE</Name>
+               <Range>5000000-5699999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>5700000-9599999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>HAITI_2__960_TO_999_RANGE</Name>
+               <Range>9600000-9999999</Range>
+               <Length>3</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-99995</Prefix>
+         <Agency name="Seychelles">SEYCHELLES_1</Agency>
+         <Rules>
+            <Rule>
+               <Name/>
+               <Range>0000000-4999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>SEYCHELLES_1__50_TO_55_RANGE</Name>
+               <Range>5000000-5599999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>5600000-9749999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>SEYCHELLES_1__975_TO_999_RANGE</Name>
+               <Range>9750000-9999999</Range>
+               <Length>3</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-99996</Prefix>
+         <Agency name="Macau">MACAU_3</Agency>
+         <Rules>
+            <Rule>
+               <Name>MACAU_3__0_TO_1_RANGE</Name>
                <Range>0000000-1999999</Range>
                <Length>1</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>2000000-4999999</Range>
+               <Range>2000000-3999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>OMAN_1__50_TO_64_RANGE</Name>
-               <Range>5000000-6499999</Range>
+               <Name>MACAU_3__40_TO_59_RANGE</Name>
+               <Range>4000000-5999999</Range>
                <Length>2</Length>
             </Rule>
             <Rule>
                <Name/>
-               <Range>6500000-9499999</Range>
+               <Range>6000000-8999999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
-               <Name>OMAN_1__950_TO_999_RANGE</Name>
+               <Name>MACAU_3__900_TO_999_RANGE</Name>
+               <Range>9000000-9999999</Range>
+               <Length>3</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-99997</Prefix>
+         <Agency name="Srpska, Republic of">SRPSKA_REPUBLIC_OF_3</Agency>
+         <Rules>
+            <Rule>
+               <Name>SRPSKA_REPUBLIC_OF_3__0_TO_0_RANGE</Name>
+               <Range>0000000-0999999</Range>
+               <Length>1</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>1000000-3999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>SRPSKA_REPUBLIC_OF_3__40_TO_54_RANGE</Name>
+               <Range>4000000-5499999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>5500000-9499999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>SRPSKA_REPUBLIC_OF_3__950_TO_999_RANGE</Name>
                <Range>9500000-9999999</Range>
                <Length>3</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>978-99998</Prefix>
+         <Agency name="Namibia">NAMIBIA_2</Agency>
+         <Rules>
+            <Rule>
+               <Name/>
+               <Range>0000000-7999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>NAMIBIA_2__80_TO_89_RANGE</Name>
+               <Range>8000000-8999999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>9000000-9999999</Range>
+               <Length>0</Length>
             </Rule>
          </Rules>
       </Group>
@@ -9165,9 +10571,14 @@
          <Agency name="Korea, Republic">KOREA_REPUBLIC_1</Agency>
          <Rules>
             <Rule>
-               <Name>KOREA_REPUBLIC_1__00_TO_24_RANGE</Name>
-               <Range>0000000-2499999</Range>
+               <Name>KOREA_REPUBLIC_1__00_TO_23_RANGE</Name>
+               <Range>0000000-2399999</Range>
                <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name>KOREA_REPUBLIC_1__24000_TO_24999_RANGE</Name>
+               <Range>2400000-2499999</Range>
+               <Length>5</Length>
             </Rule>
             <Rule>
                <Name>KOREA_REPUBLIC_1__250_TO_549_RANGE</Name>
@@ -9227,8 +10638,64 @@
             </Rule>
             <Rule>
                <Name/>
-               <Range>8500000-9999999</Range>
+               <Range>8500000-9849999</Range>
                <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>ITALY_1__985000_TO_999999_RANGE</Name>
+               <Range>9850000-9999999</Range>
+               <Length>6</Length>
+            </Rule>
+         </Rules>
+      </Group>
+      <Group>
+         <Prefix>979-13</Prefix>
+         <Agency name="Spain">SPAIN_1</Agency>
+         <Rules>
+            <Rule>
+               <Name>SPAIN_1__00_TO_00_RANGE</Name>
+               <Range>0000000-0099999</Range>
+               <Length>2</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>0100000-5999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>SPAIN_1__600_TO_604_RANGE</Name>
+               <Range>6000000-6049999</Range>
+               <Length>3</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>6050000-6999999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>SPAIN_1__7000_TO_7349_RANGE</Name>
+               <Range>7000000-7349999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>7350000-8749999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>SPAIN_1__87500_TO_89999_RANGE</Name>
+               <Range>8750000-8999999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>9000000-9899999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>SPAIN_1__990000_TO_999999_RANGE</Name>
+               <Range>9900000-9999999</Range>
+               <Length>6</Length>
             </Rule>
          </Rules>
       </Group>
@@ -9247,23 +10714,38 @@
                <Length>3</Length>
             </Rule>
             <Rule>
-               <Name/>
-               <Range>2300000-3499999</Range>
-               <Length>0</Length>
+               <Name>UNITED_STATES__230_TO_239_RANGE</Name>
+               <Range>2300000-2399999</Range>
+               <Length>3</Length>
             </Rule>
             <Rule>
-               <Name>UNITED_STATES__3500_TO_3999_RANGE</Name>
-               <Range>3500000-3999999</Range>
+               <Name>UNITED_STATES__2400_TO_2599_RANGE</Name>
+               <Range>2400000-2599999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>UNITED_STATES__4000_TO_8499_RANGE</Name>
-               <Range>4000000-8499999</Range>
+               <Name>UNITED_STATES__2600_TO_2799_RANGE</Name>
+               <Range>2600000-2799999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
-               <Name>UNITED_STATES__8500_TO_8849_RANGE</Name>
-               <Range>8500000-8849999</Range>
+               <Name>UNITED_STATES__2800_TO_2999_RANGE</Name>
+               <Range>2800000-2999999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>UNITED_STATES__3000_TO_3199_RANGE</Name>
+               <Range>3000000-3199999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>UNITED_STATES__3200_TO_3499_RANGE</Name>
+               <Range>3200000-3499999</Range>
+               <Length>4</Length>
+            </Rule>
+            <Rule>
+               <Name>UNITED_STATES__3500_TO_8849_RANGE</Name>
+               <Range>3500000-8849999</Range>
                <Length>4</Length>
             </Rule>
             <Rule>
@@ -9272,8 +10754,23 @@
                <Length>5</Length>
             </Rule>
             <Rule>
+               <Name>UNITED_STATES__90000_TO_90999_RANGE</Name>
+               <Range>9000000-9099999</Range>
+               <Length>5</Length>
+            </Rule>
+            <Rule>
                <Name/>
-               <Range>9000000-9849999</Range>
+               <Range>9100000-9499999</Range>
+               <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>UNITED_STATES__950000_TO_969999_RANGE</Name>
+               <Range>9500000-9699999</Range>
+               <Length>6</Length>
+            </Rule>
+            <Rule>
+               <Name/>
+               <Range>9700000-9849999</Range>
                <Length>0</Length>
             </Rule>
             <Rule>
@@ -9282,9 +10779,24 @@
                <Length>7</Length>
             </Rule>
             <Rule>
+               <Name>UNITED_STATES__9900000_TO_9929999_RANGE</Name>
+               <Range>9900000-9929999</Range>
+               <Length>7</Length>
+            </Rule>
+            <Rule>
+               <Name>UNITED_STATES__9930000_TO_9959999_RANGE</Name>
+               <Range>9930000-9959999</Range>
+               <Length>7</Length>
+            </Rule>
+            <Rule>
                <Name/>
-               <Range>9900000-9999999</Range>
+               <Range>9960000-9984999</Range>
                <Length>0</Length>
+            </Rule>
+            <Rule>
+               <Name>UNITED_STATES__9985000_TO_9999999_RANGE</Name>
+               <Range>9985000-9999999</Range>
+               <Length>7</Length>
             </Rule>
          </Rules>
       </Group>
