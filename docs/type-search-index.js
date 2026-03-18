@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"io.sourceforge.curtthomas.isbn","l":"Isbn"}]
