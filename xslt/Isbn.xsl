@@ -1420,7 +1420,7 @@ array of key/value pairs. The indexes and corresponding keys are as follows:&lt;
 &lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;CHECK_DIGIT&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;PREFIX&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;PREFIX_OLD&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;PUBLICATION_ELEMENT&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;PUBLICATION_ELEMENT_EXTENT&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;PUBLICATION_ELEMENT_SIZE&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Qualified registrant element&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;REGISTRANT_ELEMENT&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Qualified_registrant_element&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;REGISTRANT_ELEMENT&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;REGISTRANT_ELEMENT_EXTENT&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;REGISTRANT_ELEMENT_SIZE&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;Range constant&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
@@ -1497,8 +1497,8 @@ String[][] result = new String[13][2];
 //AGENCY_NAME.name(),AGENCY_NAME.getComponent(isbn)
 result[0][0] = AGENCY_NAME.name(); 
 result[0][1] = AGENCY_NAME.getComponent(isbn);
-//"Agency constant",assignAgencyConstant(isbn).name()
-result[1][0] = "Agency constant"; 
+//"Agency_constant",assignAgencyConstant(isbn).name()
+result[1][0] = "Agency_constant"; 
 result[1][1] = assignAgencyConstant(isbn).name();
 //CHECK_DIGIT.name(),CHECK_DIGIT.getComponent(isbn)
 result[2][0] = CHECK_DIGIT.name();
@@ -1518,8 +1518,8 @@ result[6][1] = PUBLICATION_ELEMENT_EXTENT.getComponent(isbn);
 //PUBLICATION_ELEMENT_SIZE.name(),PUBLICATION_ELEMENT_SIZE.getComponent(isbn)
 result[7][0] = PUBLICATION_ELEMENT_SIZE.name();
 result[7][1] = PUBLICATION_ELEMENT_SIZE.getComponent(isbn);
-//"Qualified registrant element",assignAgencyConstant(isbn).getComponent(isbn)
-result[8][0] = "Qualified registrant element";
+//"Qualified_registrant_element",assignAgencyConstant(isbn).getComponent(isbn)
+result[8][0] = "Qualified_registrant_element";
 result[8][1] = assignAgencyConstant(isbn).getComponent(isbn);
 //REGISTRANT_ELEMENT.name(),REGISTRANT_ELEMENT.getComponent(isbn)
 result[9][0] = REGISTRANT_ELEMENT.name();
@@ -1530,8 +1530,8 @@ result[10][1] = REGISTRANT_ELEMENT_EXTENT.getComponent(isbn);
 //REGISTRANT_ELEMENT_SIZE.name(),REGISTRANT_ELEMENT_SIZE.getComponent(isbn)
 result[11][0] = REGISTRANT_ELEMENT_SIZE.name();
 result[11][1] = REGISTRANT_ELEMENT_SIZE.getComponent(isbn);
-//"Range constant",assignRangeConstant(isbn).name()
-result[12][0] = "Range constant";
+//"Range_constant",assignRangeConstant(isbn).name()
+result[12][0] = "Range_constant";
 result[12][1] = assignRangeConstant(isbn).name();
 arrays.add(result);
 }
@@ -1609,7 +1609,7 @@ PUBLICATION_ELEMENT_EXTENT
 PUBLICATION_ELEMENT_SIZE
 &lt;/td&gt;
 &lt;td&gt;
-Qualified registrant element
+Qualified_registrant_element
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -1791,7 +1791,7 @@ PUBLICATION_ELEMENT_EXTENT
 PUBLICATION_ELEMENT_SIZE
 &lt;/td&gt;
 &lt;td&gt;
-Qualified registrant element
+Qualified_registrant_element
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -1957,7 +1957,7 @@ PUBLICATION_ELEMENT_EXTENT
 PUBLICATION_ELEMENT_SIZE
 &lt;/td&gt;
 &lt;td&gt;
-Qualified registrant element
+Qualified_registrant_element
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -2029,9 +2029,9 @@ and print a message to stderr rather than throw an exception.
 	"whether it is possible that " + isbn + " is de jure invalid.");
 	TreeMap&lt;String,String&gt; components = new TreeMap&lt;&gt;();
 	// Qualified registrant element
-	components.put("Qualified registrant element",assignAgencyConstant(isbn).getComponent(isbn));
+	components.put("Qualified_registrant_element",assignAgencyConstant(isbn).getComponent(isbn));
 	// Agency constant
-	components.put("Agency constant",assignAgencyConstant(isbn).name());
+	components.put("Agency_constant",assignAgencyConstant(isbn).name());
 	// PREFIX
 	components.put(PREFIX.name(),PREFIX.getComponent(isbn));
 	// PREFIX_OLD
@@ -2053,7 +2053,7 @@ and print a message to stderr rather than throw an exception.
 	// REGISTRANT_ELEMENT_EXTENT
 	components.put(REGISTRANT_ELEMENT_EXTENT.name(),REGISTRANT_ELEMENT_EXTENT.getComponent(isbn));
 	// Range constant
-	components.put("Range constant",assignRangeConstant(isbn).name());
+	components.put("Range_constant",assignRangeConstant(isbn).name());
 	return components;
 	}
 </xsl:text>
@@ -2189,8 +2189,8 @@ and print a message to stderr rather than throw an exception.
 	"whether it is possible that " + isbn + " is de jure invalid.");
 	TreeMap&lt;String,String&gt; components = new TreeMap&lt;&gt;();
 	components.put(assignAgencyConstant(isbn).name(),assignAgencyConstant(isbn).getComponent(isbn));
-	components.put("Qualified registrant element",assignAgencyConstant(isbn).getComponent(isbn));
-	components.put("Agency constant",assignAgencyConstant(isbn).name());
+	components.put("Qualified_registrant_element",assignAgencyConstant(isbn).getComponent(isbn));
+	components.put("Agency_constant",assignAgencyConstant(isbn).name());
 	components.put(PREFIX.name(),PREFIX.getComponent(isbn));
 	components.put(PREFIX_OLD.name(),PREFIX_OLD.getComponent(isbn));
 	components.put(AGENCY_NAME.name(),AGENCY_NAME.getComponent(isbn));
@@ -2202,7 +2202,7 @@ and print a message to stderr rather than throw an exception.
 	components.put(PUBLICATION_ELEMENT_SIZE.name(),PUBLICATION_ELEMENT_SIZE.getComponent(isbn));
 	components.put(PUBLICATION_ELEMENT_EXTENT.name(),PUBLICATION_ELEMENT_EXTENT.getComponent(isbn));
 	components.put(REGISTRANT_ELEMENT_EXTENT.name(),REGISTRANT_ELEMENT_EXTENT.getComponent(isbn));
-	components.put("Range constant",assignRangeConstant(isbn).name());
+	components.put("Range_constant",assignRangeConstant(isbn).name());
 	components.put(assignRangeConstant(isbn).name(),Integer.toString(assignRangeConstant(isbn).getMaximumAssigned()));
 	return components;
 	}
